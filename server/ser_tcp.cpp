@@ -24,16 +24,18 @@ using namespace std;
 
 //port data types
 
-#define REQUEST_PORT 0x7070
+#define REQUEST_PORT 0x1B59;
+#define SERVER_PORT 0x1389;
 
-int port=REQUEST_PORT;
+int serverPort =SERVER_PORT; 
+int routerPort=REQUEST_PORT;
 
 //socket data types
 SOCKET s;
 
 SOCKET s1;
 SOCKADDR_IN sa;      // filled by bind
-SOCKADDR_IN sa1;     // fill with server info, IP, port
+SOCKADDR_IN sa_in;     // fill with server info, IP, port
 
 Server servz;
 
@@ -124,14 +126,15 @@ union {struct sockaddr generic;
 			}
 
 			//Create the server socket
-			if((s = socket(AF_INET,SOCK_STREAM,0))==INVALID_SOCKET) 
+			if((s = socket(AF_INET,SOCK_DGRAM,0))==INVALID_SOCKET) 
 				throw "can't initialize socket";
 			// For UDP protocol replace SOCK_STREAM with SOCK_DGRAM 
 
 
 			//Fill-in Server Port and Address info.
+			memset(&sa, 0, sizeof(sa));
 			sa.sin_family = AF_INET;
-			sa.sin_port = htons(port);
+			sa.sin_port = htons(routerPort);
 			sa.sin_addr.s_addr = htonl(INADDR_ANY);
 
 

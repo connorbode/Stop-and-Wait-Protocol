@@ -30,15 +30,18 @@ char* getmessage(char *);
 using namespace std;
 
 //user defined port number
-#define REQUEST_PORT 0x7070;
+#define REQUEST_PORT 0x1B58;
+#define CLIENT_PORT 0x1388;
 
-int port=REQUEST_PORT;
+int routerPort=REQUEST_PORT;
+int clientPort=CLIENT_PORT;
+
 
 
 
 //socket data types
 SOCKET s;
-SOCKADDR_IN sa;         // filled by bind
+SOCKADDR_IN sa;         // filled by bind 
 SOCKADDR_IN sa_in;      // fill with server info, IP, port
 
 
@@ -143,15 +146,23 @@ int main(void){
 			throw "remote gethostbyname failed\n";
 
 		//Create the socket
-		if((s = socket(AF_INET,SOCK_STREAM,0))==INVALID_SOCKET) 
+		if((s = socket(AF_INET,SOCK_DGRAM,IPPROTO_UDP))==INVALID_SOCKET) 
 			throw "Socket failed\n";
 		/* For UDP protocol replace SOCK_STREAM with SOCK_DGRAM */
+
+		memset(&sa,0,sizeof(sa));
+		sa.sin_family = AF_INET;
+		sa.sin_port = htons(clientPort);
+		sa.sin_addr.s_addr = htonl(INADDR_ANY); //host to network
+		//bind the port to the socket
+		if (bind(s,(LPSOCKADDR)&sa,sizeof(sa)) == SOCKET_ERROR)
+				throw "can't bind the socket";
 
 		//Specify server address for client to connect to server.
 		memset(&sa_in,0,sizeof(sa_in));
 		memcpy(&sa_in.sin_addr,rp->h_addr,rp->h_length);
 		sa_in.sin_family = rp->h_addrtype;   
-		sa_in.sin_port = htons(port);
+		sa_in.sin_port = htons(routerPort);
 
 		//Display the host machine internet address
 
