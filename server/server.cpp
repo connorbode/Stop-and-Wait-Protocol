@@ -37,21 +37,25 @@ void Server::run() {
 		ss << message;
 		ss >> messageString;
 
-		cout << "Received message: " << messageString << "\n";
+		if( ! messageString.empty() ) {
 
-		/* Decode message */
+			cout << "Received message: " << messageString << "\n";
 
-		// Client wants to list remote files
-		if(strcmp(message, "list") == 0) { list(); }
+			/* Decode message */
 
-		// Client wants to upload a file
-		else if(messageString.substr(0, 3).compare("put") == 0) { put(messageString); }
+			// Client wants to list remote files
+			if(strcmp(message, "list") == 0) { list(); }
 
-		// Client wants to download a file
-		else if(messageString.substr(0, 3).compare("get") == 0) {get(messageString); }
+			// Client wants to upload a file
+			else if(messageString.substr(0, 3).compare("put") == 0) { put(messageString); }
 
-		// Client wants to delete a file
-		else if(messageString.substr(0, 6).compare("delete") == 0) {deleteFile(messageString); }
+			// Client wants to download a file
+			else if(messageString.substr(0, 3).compare("get") == 0) {get(messageString); }
+
+			// Client wants to delete a file
+			else if(messageString.substr(0, 6).compare("delete") == 0) {deleteFile(messageString); }
+
+		}
 	}
 }
 

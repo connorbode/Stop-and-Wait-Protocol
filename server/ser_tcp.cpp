@@ -35,7 +35,7 @@ SOCKET s;
 
 SOCKET s1;
 SOCKADDR_IN sa;      // filled by bind
-SOCKADDR_IN sa_in;     // fill with server info, IP, port
+SOCKADDR sa_in;     // fill with server info, IP, port
 
 Server servz;
 
@@ -134,23 +134,27 @@ union {struct sockaddr generic;
 			//Fill-in Server Port and Address info.
 			memset(&sa, 0, sizeof(sa));
 			sa.sin_family = AF_INET;
-			sa.sin_port = htons(routerPort);
+			sa.sin_port = htons(serverPort);
 			sa.sin_addr.s_addr = htonl(INADDR_ANY);
 
 
 			//Bind the server port
 
-			if (bind(s,(LPSOCKADDR)&sa,sizeof(sa)) == SOCKET_ERROR)
+			if (bind(s,(LPSOCKADDR)&sa,sizeof(sa)) == SOCKET_ERROR) {
+				wprintf(L"bind failed with error %u\n", WSAGetLastError());
 				throw "can't bind the socket";
+			}
 			cout << "Bind was successful" << endl;
 
 			//Successfull bind, now listen for client requests.
 
-			if(listen(s,10) == SOCKET_ERROR)
+			/* if(listen(s,10) == SOCKET_ERROR) {
+				wprintf(L"bind failed with error %u\n", WSAGetLastError());
 				throw "couldn't  set up listen on socket";
+			}
 			else cout << "Listen was successful" << endl;
 
-			FD_ZERO(&readfds);
+			FD_ZERO(&readfds); */
 
 			//wait loop
 
@@ -158,7 +162,7 @@ union {struct sockaddr generic;
 
 			{
 
-				FD_SET(s,&readfds);  //always check the listener
+				/*FD_SET(s,&readfds);  //always check the listener
 
 				if(!(outfds=select(infds,&readfds,NULL,NULL,tp))) {}
 
@@ -168,12 +172,12 @@ union {struct sockaddr generic;
 
 				//Found a connection request, try to accept. 
 
-				if((s1=accept(s,&ca.generic,&calen))==INVALID_SOCKET)
+				/*if((s1=accept(s,&ca.generic,&calen))==INVALID_SOCKET)
 					throw "Couldn't accept connection\n";
 
 				//Connection request accepted.
 				cout<<"accepted connection from "<<inet_ntoa(ca.ca_in.sin_addr)<<":"
-					<<hex<<htons(ca.ca_in.sin_port)<<endl;
+					<<hex<<htons(ca.ca_in.sin_port)<<endl; */
 
 				// Create transfer object.. 
 				//transfer = Transfer(s1);
@@ -223,7 +227,7 @@ union {struct sockaddr generic;
 
 		//Display needed error message.
 
-		catch(char* str) { cerr<<str<<WSAGetLastError()<<endl;}
+		catch(char* str) { cout<<WSAGetLastError()<<endl;}
 
 		//close Client socket
 		closesocket(s1);		

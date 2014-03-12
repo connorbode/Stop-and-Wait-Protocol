@@ -44,8 +44,6 @@ SOCKET s;
 SOCKADDR_IN sa;         // filled by bind 
 SOCKADDR_IN sa_in;      // fill with server info, IP, port
 
-
-
 //buffer data types
 //char szbuffer[128];
 
@@ -180,7 +178,7 @@ int main(void){
 		/* MODIFIED CODE */
 
 		terminal = Terminal(s);
-		terminal.run();
+		terminal.run(sa_in);
 
 		/* Have an open connection, so, server is 
 

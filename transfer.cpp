@@ -1,5 +1,7 @@
 
 #include "transfer.h"
+#define UTIMER 300000
+#define STIMER 0
 using namespace std;
 
 Transfer::Transfer() {
@@ -9,6 +11,8 @@ Transfer::Transfer(SOCKET s) {
 	this->s = s;
 	PACKET_SIZE = 128;
 	HEADER_LENGTH = 43;
+	timeouts.tv_sec = STIMER;
+	timeouts.tv_usec = UTIMER;
 }
 
 bool Transfer::sendMessage(char* message) {
@@ -16,7 +20,7 @@ bool Transfer::sendMessage(char* message) {
 	sprintf(szbuffer, message); 
 	ibytessent=0;
 	ibufferlen = strlen(message);
-	ibytessent = send(s,szbuffer,ibufferlen,0);
+	ibytessent = sendto(s,szbuffer,ibufferlen,0, (struct sockaddr *) &fromAddr, sizeof(fromAddr));
 	if (ibytessent == SOCKET_ERROR)
 		throw "Send failed\n";  
 	else {
@@ -29,8 +33,18 @@ bool Transfer::sendMessage(char* message) {
 char* Transfer::receiveMessage() {
 	memset(&szbuffer,0,sizeof(szbuffer));
 	//Fill in szbuffer from accepted request.
-	if((ibytesrecv = recv(s,szbuffer,128,0)) == SOCKET_ERROR)
-		throw "Receive error in server program\n";
+	/*if((ibytesrecv = recv(s,szbuffer,128,0)) == SOCKET_ERROR)
+		throw "Receive error in server program\n";*/
+	fd_set readfds; //fd_set is a typeFD_ZERO(&readfds); //initialize FD_SET(s, &readfds); //put the socket in the set
+	
+	int outfds;
+	if(!(outfds = select (1 , &readfds, NULL, NULL, & timeouts))) {//timed out, 
+		throw "timeout!!!";
+	}
+	fromAddrSize = sizeof(fromAddr);
+	if (outfds == 1) //receive frame
+		ibytesrecv = recvfrom(s, (char*)& szbuffer, sizeof(szbuffer),0, (struct sockaddr*)&fromAddr, &fromAddrSize);
+
 
 	//Print reciept of successful message. 
 	return szbuffer;
@@ -77,6 +91,7 @@ bool Transfer::sendFile(FILE *stream, string filename) {
 	// if the response is not "ok", exit
 	if(strcmp(response, "ok") != 0) {
 		cout << "something went wrong... quitting...";
+		Sleep(10000);
 		exit(0);
 	}
 

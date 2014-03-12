@@ -15,7 +15,7 @@ public:
 	// functions
 	Terminal();
 	Terminal(SOCKET);
-	void run();
+	void run(SOCKADDR_IN);
 	bool process(const char *);
 	void quit();
 	void listLocal();

@@ -17,6 +17,9 @@ public:
 	int ibytesrecv;
 	int PACKET_SIZE;
 	int HEADER_LENGTH;
+	struct sockaddr_in fromAddr;
+	int fromAddrSize;
+	struct timeval timeouts;
 
 	// methods
 	Transfer::Transfer();

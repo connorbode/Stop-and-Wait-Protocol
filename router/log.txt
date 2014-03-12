@@ -1,0 +1,5 @@
+Peer host 1: fusilli
+Peer host 2: fusilli
+Damage Rate: 0
+Router: Receive packet 0 from peer host 1
+Router: Send packet 0 received from peer host 1 to host 2

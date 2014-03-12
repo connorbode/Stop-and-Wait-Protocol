@@ -11,7 +11,9 @@ Terminal::Terminal(SOCKET s) {
 /**
  * Starts the Terminal running & waiting for input
  */
-void Terminal::run() {
+void Terminal::run(SOCKADDR_IN fromAddr) {
+
+	transfer.fromAddr = fromAddr;
 
 	// Set current directory
 	if( ! _getcwd(directory, sizeof(directory)) ) {
