@@ -15,21 +15,6 @@ Transfer::Transfer(SOCKET s) {
 	timeouts.tv_usec = UTIMER;
 }
 
-char* Transfer::handshake(char* message) {
-
-	char response[128] = "";
-
-	// loop until we get a proper response from the server
-	while(strcmp(response, "") == 0) {
-		sendMessage(message);
-		strcpy(response, receiveMessage());
-	}
-
-	sendMessage("ok");
-
-	return response;
-}
-
 bool Transfer::sendMessage(char* message) {
 	memset(&szbuffer,0,sizeof(szbuffer));
 	sprintf(szbuffer, message); 

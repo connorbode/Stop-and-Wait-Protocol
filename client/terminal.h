@@ -8,6 +8,8 @@
 #include "../transfer.h"
 #include <sstream>
 #include <stdio.h>
+#include <time.h>
+#include <stdlib.h>
 
 
 class Terminal {
@@ -15,6 +17,7 @@ public:
 	// functions
 	Terminal();
 	Terminal(SOCKET);
+	char* handshake(char*);
 	void run(SOCKADDR_IN);
 	bool process(const char *);
 	void quit();

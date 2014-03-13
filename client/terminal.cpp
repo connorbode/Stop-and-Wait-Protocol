@@ -6,6 +6,30 @@ Terminal::Terminal() {};
 
 Terminal::Terminal(SOCKET s) {
 	transfer = Transfer(s);
+	srand((unsigned)time(NULL));
+}
+
+char* Terminal::handshake(char* message) {
+	
+	char response[128] = "";
+	int rando = rand() % 255;
+	cout << "Generated random number " << rando << "\n";
+	string rands = ";RAND:" + to_string(rando) + ";";
+	char newMessage[128] = "";
+	strcat(newMessage, message);
+	strcat(newMessage, rands.c_str());
+
+	// loop until we get a proper response from the server
+	cout << "Sending request..\n\n";
+	while(strcmp(response, "") == 0) {
+		transfer.sendMessage(newMessage);
+		strcpy(response, transfer.receiveMessage());
+	}
+	cout << "received response.  sending ack.";
+
+	transfer.sendMessage("ok");
+
+	return response;
 }
 
 /**
@@ -166,11 +190,11 @@ void Terminal::showHelp() {
 void Terminal::listRemote() {
 
 	// Send the list command to the server
-	transfer.sendMessage("list");
+	// transfer.sendMessage("list");
 
 	// Receive file list
 	char response[128];
-	strcpy(response, transfer.receiveMessage());
+	strcpy(response, handshake("list"));
 
 	// Check if the file list is empty
 	if(strcmp(&response[0], ";") == 0) {

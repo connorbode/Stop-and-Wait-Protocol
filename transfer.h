@@ -25,7 +25,6 @@ public:
 	// methods
 	Transfer::Transfer();
 	Transfer::Transfer(SOCKET);
-	char* handshake(char*);
 	bool sendMessage(char*);
 	bool sendMessage2(char*);
 	bool sendFile(FILE*, std::string);

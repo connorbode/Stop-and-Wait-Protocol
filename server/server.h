@@ -22,6 +22,7 @@ public:
 	void put(std::string);
 	void get(std::string);
 	void deleteFile(std::string);
+	void handshake();
 
 	// variables
 	Transfer transfer;

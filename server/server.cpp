@@ -9,6 +9,7 @@ Server::Server(SOCKET s) {
 	transfer = Transfer(s);
 }
 
+
 /**
  * Starts the server listening for incoming messages
  */
@@ -46,7 +47,7 @@ void Server::run(SOCKADDR_IN fromAddr) {
 			/* Decode message */
 
 			// Client wants to list remote files
-			if(strcmp(message, "list") == 0) { list(); }
+			if(messageString.substr(0,4).compare("list") == 0) { list(); }
 
 			// Client wants to upload a file
 			else if(messageString.substr(0, 3).compare("put") == 0) { put(messageString); }
@@ -91,6 +92,8 @@ void Server::list() {
 		if(strcmp(fileList, "") == 0) {
 			strcat(fileList, ";");
 		}
+
+		char response[128] = "";
 
 		// Send the fileList back to the client
 		transfer.sendMessage(fileList);
