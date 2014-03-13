@@ -15,6 +15,21 @@ Transfer::Transfer(SOCKET s) {
 	timeouts.tv_usec = UTIMER;
 }
 
+char* Transfer::handshake(char* message) {
+
+	char response[128] = "";
+
+	// loop until we get a proper response from the server
+	while(strcmp(response, "") == 0) {
+		sendMessage(message);
+		strcpy(response, receiveMessage());
+	}
+
+	sendMessage("ok");
+
+	return response;
+}
+
 bool Transfer::sendMessage(char* message) {
 	memset(&szbuffer,0,sizeof(szbuffer));
 	sprintf(szbuffer, message); 
@@ -35,14 +50,16 @@ char* Transfer::receiveMessage() {
 	//Fill in szbuffer from accepted request.
 	/*if((ibytesrecv = recv(s,szbuffer,128,0)) == SOCKET_ERROR)
 		throw "Receive error in server program\n";*/
-	fd_set readfds; //fd_set is a typeFD_ZERO(&readfds); //initialize FD_SET(s, &readfds); //put the socket in the set
-	
+	 //fd_set is a typeFD_ZERO(&readfds); //initialize FD_SET(s, &readfds); //put the socket in the set
+	FD_ZERO(&readfds);
+	FD_SET(s, &readfds);
+
 	int outfds;
-	if(!(outfds = select (1 , &readfds, NULL, NULL, & timeouts))) {//timed out, 
+	if((outfds = select (1 , &readfds, NULL, NULL, &timeouts))==SOCKET_ERROR) {//timed out, 
 		throw "timeout!!!";
 	}
 	fromAddrSize = sizeof(fromAddr);
-	if (outfds == 1) //receive frame
+	if (outfds > 0) //receive frame
 		ibytesrecv = recvfrom(s, (char*)& szbuffer, sizeof(szbuffer),0, (struct sockaddr*)&fromAddr, &fromAddrSize);
 
 
@@ -86,7 +103,11 @@ bool Transfer::sendFile(FILE *stream, string filename) {
 
 	// Wait for response
 	char response[128];
-	strcpy(response, receiveMessage());
+	memset(response, '\0', sizeof(char)*128);
+
+	while(strcmp(response, "") == 0) {
+		strcpy(response, receiveMessage());
+	}
 
 	// if the response is not "ok", exit
 	if(strcmp(response, "ok") != 0) {
@@ -121,7 +142,7 @@ bool Transfer::sendFile(FILE *stream, string filename) {
 		// Read from fi
 
 		ibytessent=0;
-		ibytessent = send(s,szbuffer, packetSize,0);
+		ibytessent = sendto(s,szbuffer,ibufferlen,0, (struct sockaddr *) &fromAddr, sizeof(fromAddr));
 		if (ibytessent == SOCKET_ERROR)
 			throw "Send failed\n";
 		else {
@@ -157,8 +178,16 @@ void Transfer::receiveFile(FILE *stream, int numPackets, int lastPacketSize) {
 		memset(&szbuffer,0,sizeof(szbuffer));
 
 		// Receive packet to buffer
-		if((ibytesrecv = recv(s,szbuffer, packetSize,0)) == SOCKET_ERROR)
-			throw "Receive error in server program\n";
+		FD_ZERO(&readfds);
+		FD_SET(s, &readfds);
+
+		int outfds;
+		if((outfds = select (1 , &readfds, NULL, NULL, & timeouts))==SOCKET_ERROR) {//timed out, 
+			throw "timeout!!!";
+		}
+		fromAddrSize = sizeof(fromAddr);
+		if (outfds > 0) //receive frame
+			ibytesrecv = recvfrom(s, (char*)& szbuffer, sizeof(szbuffer),0, (struct sockaddr*)&fromAddr, &fromAddrSize);
 
 		// Print received packet
 		printf("Received packet %ld, expected size %ld, bytes received %ld\n", i, packetSize, ibytesrecv);
@@ -172,112 +201,4 @@ void Transfer::receiveFile(FILE *stream, int numPackets, int lastPacketSize) {
 	int byteswritten = fwrite(fileBuffer, 1, filesize, stream);
 
 	printf("Wrote %ld bytes \n", byteswritten);
-}
-
-
-bool Transfer::sendMessage2(char* message) {
-
-	// Get message size
-	string messageString = string(message);
-	int messageSize = messageString.size();
-
-	// Get number of packets
-	int numPackets = (messageSize / PACKET_SIZE) + 1;
-
-	// Get last packet size
-	int lastPacketSize = messageSize % PACKET_SIZE;
-
-	// Pad number of packets with zeros
-	char numPacketsChar[9] = "";
-	sprintf(numPacketsChar, "%09d", numPackets);
-
-	// Pad last packet size with zeros
-	char lastPacketSizeChar[3] = "";
-	sprintf(lastPacketSizeChar, "%03d", lastPacketSize);
-
-	// Create header string
-	string numPacketsString = string(numPacketsChar);
-	string lastPacketSizeString = string(lastPacketSizeChar);
-	string header = "num_packets:" + numPacketsString + ";last_packet_size:" + lastPacketSizeString + ";";
-	const char *headerChar = header.c_str();
-
-	// Send header
-	memset(&szbuffer,0,sizeof(szbuffer));
-	sprintf(szbuffer, headerChar);
-	ibytessent=0;
-	if(strlen(headerChar) != HEADER_LENGTH)
-		throw "Header is corrupt..";
-	ibufferlen = HEADER_LENGTH;
-	ibytessent = send(this->s,szbuffer,ibufferlen,0);
-	if (ibytessent == SOCKET_ERROR)
-		throw "Send failed\n";
-
-	// Send each packet
-	for(int i = 0; i < numPackets; i++) {
-		
-		// Get the proper packet size
-		int thisPacketSize = PACKET_SIZE;
-		if(i == numPackets - 1) {
-			thisPacketSize = lastPacketSize;
-		}
-
-		// Reset the buffer	
-		memset(&szbuffer,0,sizeof(szbuffer));
-
-		// Copy the correct number of packets
-		strncpy(szbuffer, &message[i*PACKET_SIZE], thisPacketSize);
-		ibytessent=0;
-		ibufferlen = HEADER_LENGTH;
-		ibytessent = send(this->s,szbuffer,ibufferlen,0);
-		if (ibytessent == SOCKET_ERROR)
-			throw "Send failed\n";
-	}
-}
-
-char* Transfer::receiveMessage2() {
-
-	// Receive header
-	memset(&szbuffer,0,sizeof(szbuffer));
-	if((ibytesrecv = recv(s,szbuffer,PACKET_SIZE,0)) == SOCKET_ERROR)
-		throw "Receive error in server program\n";
-
-	// Extract number of packets
-	char num_packets_char[10];
-	memcpy(num_packets_char, &szbuffer[12], 9);
-	num_packets_char[9] = '\0';
-	int num_packets = atoi(num_packets_char);
-
-	// Extract last packet size
-	char last_packet_size_char[4];
-	memcpy(last_packet_size_char, &szbuffer[39], 3);
-	last_packet_size_char[3] = '\0';
-	int last_packet_size = atoi(last_packet_size_char);
-
-	// Create a buffer to empty the packets into
-	const int total_message_size = (num_packets - 1) * PACKET_SIZE + last_packet_size;
-	char* message = new char[total_message_size];
-
-	cout << "receiving message";
-
-	// Receive message
-	for(int i = 0; i < num_packets; i++) {
-
-		// Get incoming message size
-		int packet_size = PACKET_SIZE;
-		if(i == num_packets - 1) {
-			packet_size = last_packet_size;
-		}
-
-		// Clear the buffer
-		memset(&szbuffer,0,sizeof(szbuffer));
-
-		// Receive the message
-		if((ibytesrecv = recv(s,szbuffer,packet_size,0)) == SOCKET_ERROR)
-			throw "Receive error in server program\n";
-
-		// Copy the message to the buffer
-		strcat(message, szbuffer);
-	}
-
-	return message;
 }

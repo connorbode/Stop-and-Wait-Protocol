@@ -152,6 +152,11 @@ void Terminal::showHelp() {
 	cout << "Operations: \n\r";
 	cout << " quit - quit the application \n\r";
 	cout << " list_local - list files in the local directory \n\r";
+	cout << " list_remote - list files in the remote directory \n\r";
+	cout << " put - send a file to the remote directory \n\r";
+	cout << " get - retrieve a file from the remote directory \n\r";
+	cout << " delete_local - delete a file from the local directory \n\r";
+	cout << " delete_remote - delete a file from the remote directory \n\r";
 }
 
 

@@ -19,11 +19,13 @@ public:
 	int HEADER_LENGTH;
 	struct sockaddr_in fromAddr;
 	int fromAddrSize;
-	struct timeval timeouts;
+	struct timeval timeouts;	
+	fd_set readfds;
 
 	// methods
 	Transfer::Transfer();
 	Transfer::Transfer(SOCKET);
+	char* handshake(char*);
 	bool sendMessage(char*);
 	bool sendMessage2(char*);
 	bool sendFile(FILE*, std::string);

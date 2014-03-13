@@ -35,7 +35,7 @@ SOCKET s;
 
 SOCKET s1;
 SOCKADDR_IN sa;      // filled by bind
-SOCKADDR sa_in;     // fill with server info, IP, port
+SOCKADDR_IN sa_in;     // fill with server info, IP, port
 
 Server servz;
 
@@ -188,8 +188,8 @@ union {struct sockaddr generic;
 
 
 				/** MY CODE **/
-				servz = Server(s1);
-				servz.run();
+				servz = Server(s);
+				servz.run(sa_in);
 
 				/** END MY CODE **/
 

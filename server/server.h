@@ -17,7 +17,7 @@ public:
 	// methods
 	Server();
 	Server(SOCKET);
-	void run();
+	void run(SOCKADDR_IN);
 	void list();
 	void put(std::string);
 	void get(std::string);

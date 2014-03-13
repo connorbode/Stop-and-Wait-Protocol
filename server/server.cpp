@@ -12,7 +12,9 @@ Server::Server(SOCKET s) {
 /**
  * Starts the server listening for incoming messages
  */
-void Server::run() {
+void Server::run(SOCKADDR_IN fromAddr) {
+
+	transfer.fromAddr = fromAddr;
 
 	// Set current directory
 	if( ! _getcwd(directory, sizeof(directory)) ) {
