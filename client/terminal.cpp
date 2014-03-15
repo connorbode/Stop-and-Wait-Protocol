@@ -134,7 +134,10 @@ bool Terminal::process(const char * input) {
 	else if(strcmp(input, "delete_remote") == 0) {deleteRemote(); }
 
 	// If the input is not understood
-	else return false;
+	else {
+		cout << "Input not understood \n";
+		return false;
+	}
 }
 
 /**
@@ -423,19 +426,13 @@ void Terminal::deleteRemote() {
 	char header[128] = "delete;filename:";
 	strcat(header, filename);
 	strcat(header, ";");
-	transfer.sendMessage(header);
+
+	string r = handshake(header);
 
 	// Wait for response
 	char response[128];
-	strcpy(response, transfer.receiveMessage());
+	strcpy(response, r.c_str());
 
 	// If the file was successfully deleted
-	if(strcmp(response, "ok") == 0) {
-		cout << "file deleted \n";
-	}
-
-	// If the file was not successfully deleted
-	else {
-		cout << response << "\n";
-	}
+	cout << response << "\n";
 }

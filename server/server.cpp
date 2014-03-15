@@ -338,13 +338,25 @@ void Server::deleteFile(string request, int CR) {
 	// Delete file
 	int result = remove(filenameChar);
 
+	// response message
+	string response = "";
+
 	// Failed to delete file
 	if(result != 0) {
-		transfer.sendMessage("failed to delete file");
+		response = "failed to delete file";
 	}
 
 	// File deleted
 	else {
-		transfer.sendMessage("ok");
+		response = "file deleted";
 	}
+
+	int SR = generateSR();
+	response = generateSRResponse(CR, SR) + response;
+	char responseChar[128] = "";
+	strcpy(responseChar, response.c_str());
+	transfer.sendMessage(responseChar);
+
+	receiveSRConfirmation(SR);
+
 }
