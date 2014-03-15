@@ -7,7 +7,6 @@ Server::Server() {};
 Server::Server(SOCKET s) {
 	
 	transfer = Transfer(s);
-	srand((unsigned)time(NULL));
 }
 
 
@@ -45,26 +44,31 @@ void Server::run(SOCKADDR_IN fromAddr) {
 
 			cout << "Received message: " << messageString << "\n";
 
-			// Extract CR
+			
 			int startIndex = messageString.find("CR:");
-			int endIndex = messageString.find(";", startIndex);
-			int CR = stoi(messageString.substr(startIndex + 3, endIndex - startIndex - 3));
 
-			cout << "Received CR " << CR << "\n";
+			if(startIndex == -1) {}
+			else {
 
-			/* Decode message */
+				int endIndex = messageString.find(";", startIndex);
+				int CR = stoi(messageString.substr(startIndex + 3, endIndex - startIndex - 3));
 
-			// Client wants to list remote files
-			if(messageString.substr(0,4).compare("list") == 0) { list(CR); }
+				cout << "Received CR " << CR << "\n";
 
-			// Client wants to upload a file
-			else if(messageString.substr(0, 3).compare("put") == 0) { put(messageString, CR); }
+				/* Decode message */
 
-			// Client wants to download a file
-			else if(messageString.substr(0, 3).compare("get") == 0) {get(messageString, CR); }
+				// Client wants to list remote files
+				if(messageString.substr(0,4).compare("list") == 0) { list(CR); }
 
-			// Client wants to delete a file
-			else if(messageString.substr(0, 6).compare("delete") == 0) {deleteFile(messageString, CR); }
+				// Client wants to upload a file
+				else if(messageString.substr(0, 3).compare("put") == 0) { put(messageString, CR); }
+
+				// Client wants to download a file
+				else if(messageString.substr(0, 3).compare("get") == 0) {get(messageString, CR); }
+
+				// Client wants to delete a file
+				else if(messageString.substr(0, 6).compare("delete") == 0) {deleteFile(messageString, CR); }
+			}
 
 		}
 	}
@@ -75,16 +79,8 @@ void Server::run(SOCKADDR_IN fromAddr) {
  */
 void Server::list(int CR) {
 
-	// Receive 
-	
-	// Generate random number
-	int SR = rand() % 255;
-	cout << "Generated SR " << SR << "\n";
-
 	// Filelist to send
-	string fileListString = "SR:" + to_string(SR) + ";CR:" + to_string(CR) + ";";
 	char fileList[128] = "";
-	strcat(fileList, fileListString.c_str());
 
 	// Open directory
 	if ((dir = opendir(directory)) != NULL) {

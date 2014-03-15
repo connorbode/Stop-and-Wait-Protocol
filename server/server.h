@@ -8,7 +8,6 @@
 #include <direct.h>
 #include <vector>
 #include <conio.h>
-#include <time.h>
 #include <sstream>
 #include <string>
 
