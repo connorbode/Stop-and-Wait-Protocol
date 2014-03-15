@@ -11,39 +11,53 @@ Terminal::Terminal(SOCKET s) {
 
 string Terminal::handshake(char* message) {
 	
-	char response[128] = "";
-	int CR = rand() % 255;
-	cout << "Generated random number " << CR << "\n";
-	string rands = ";CR:" + to_string(CR) + ";";
-	char newMessage[128] = "";
-	strcat(newMessage, message);
-	strcat(newMessage, rands.c_str());
+	bool CR_match = false;
+	string messageString;
+	int SR;
 
-	// loop until we get a proper response from the server
-	cout << "Sending request..\n\n";
-	while(strcmp(response, "") == 0) {
-		transfer.sendMessage(newMessage);
-		strcpy(response, transfer.receiveMessage());
+	while( ! CR_match) {
+		char response[128] = "";
+		int CR = rand() % 255;
+		cout << "Generated random number " << CR << "\n";
+		string rands = ";CR:" + to_string(CR) + ";";
+		char newMessage[128] = "";
+		strcat(newMessage, message);
+		strcat(newMessage, rands.c_str());
+
+		// loop until we get a proper response from the server
+		cout << "Sending request..\n\n";
+		while(strcmp(response, "") == 0) {
+			transfer.sendMessage(newMessage);
+			strcpy(response, transfer.receiveMessage());
+		}
+		cout << "Received response " << response << "\n";
+
+		// extract CR and SR
+		messageString = string(response);
+		int startIndex = messageString.find("CR:");
+		int endIndex = messageString.find(";", startIndex);
+		int CR_incoming = stoi(messageString.substr(startIndex + 3, endIndex - startIndex - 3));
+		messageString = messageString.substr(0, startIndex) + messageString.substr(endIndex + 1, messageString.length() - endIndex);
+		startIndex = messageString.find("SR:");
+		endIndex = messageString.find(";", startIndex);
+		SR = stoi(messageString.substr(startIndex + 3, endIndex - startIndex - 3));
+		messageString = messageString.substr(0, startIndex) + messageString.substr(endIndex + 1, messageString.length() - endIndex);
+
+		cout << "Modified response " << messageString << "\n";
+
+		cout << "Received CR " << CR_incoming << "\n";
+		cout << "Received SR " << SR << "\n";
+
+		if(CR_incoming == CR) {
+			cout << "Incoming CR matches sent CR \n";
+			CR_match = true;
+		}
 	}
-	cout << "Received response " << response << "\n";
 
-	// extract CR and SR
-	string messageString(response);
-	int startIndex = messageString.find("CR:");
-	int endIndex = messageString.find(";", startIndex);
-	int CR_incoming = stoi(messageString.substr(startIndex + 3, endIndex - startIndex - 3));
-	messageString = messageString.substr(0, startIndex) + messageString.substr(endIndex + 1, messageString.length() - endIndex);
-	startIndex = messageString.find("SR:");
-	endIndex = messageString.find(";", startIndex);
-	int SR = stoi(messageString.substr(startIndex + 3, endIndex - startIndex - 3));
-	messageString = messageString.substr(0, startIndex) + messageString.substr(endIndex + 1, messageString.length() - endIndex);
-
-	cout << "Modified response " << messageString << "\n";
-
-	cout << "Received CR " << CR_incoming << "\n";
-	cout << "Received SR " << SR << "\n";
-
-	transfer.sendMessage("ok");
+	string responseString = "SR:" + to_string(SR) + ";";
+	char messageChar[128] = "";
+	strcpy(messageChar, responseString.c_str());
+	transfer.sendMessage(messageChar);
 
 	return messageString;
 }

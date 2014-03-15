@@ -75,17 +75,57 @@ void Server::run(SOCKADDR_IN fromAddr) {
 	}
 }
 
+int Server::generateSR() {
+	
+	// Generate server random number
+	int SR = rand() % 255;
+	cout << "Generated SR " << SR << "\n";
+	return SR;
+}
+
+string Server::generateSRResponse(int CR, int SR) {
+	string SRString = "SR:" + to_string(SR) + ";CR:" + to_string(CR) + ";";
+	return SRString;
+}
+ 
+
+/**
+ * Receives incoming SR.  Checks to see if incoming SR matches original SR.
+ * If there is a match, returns the first sequence number
+ * If there is no match, returns -1
+ */
+bool Server::receiveSRConfirmation(int SR) {
+
+	char response[128] = "";
+
+	while(strcmp(response, "") == 0) {
+		strcpy(response, transfer.receiveMessage());
+	}
+
+	string messageString(response);
+	
+	int startIndex = messageString.find("SR:");
+	int endIndex = messageString.find(";", startIndex);
+	int incoming_SR = stoi(messageString.substr(startIndex + 3, endIndex - startIndex - 3));
+
+	cout << "Received SR " << incoming_SR << "\n";
+
+	if(SR == incoming_SR) {
+		cout << "Incoming SR matches original SR \n";
+		return true;
+	} else {
+		cout << "Incoming SR did not match original SR\n";
+		return false;
+	}
+}
+
 /**
  * Lists files on the server
  */
 void Server::list(int CR) {
 
-	// Generate server random number
-	int SR = rand() % 255;
-	cout << "Generated SR " << SR << "\n";
-
-	// Filelist to send
-	string fileListString = "SR:" + to_string(SR) + ";CR:" + to_string(CR) + ";";
+	int SR = generateSR();
+	string fileListString = generateSRResponse(CR, SR);
 	char fileList[128] = "";
 	strcat(fileList, fileListString.c_str());
 
@@ -116,6 +156,9 @@ void Server::list(int CR) {
 
 		// Send the fileList back to the client
 		transfer.sendMessage(fileList);
+
+		// Receive confirmation
+		receiveSRConfirmation(SR);
 	} 
 		
 	// Failed to open directory
