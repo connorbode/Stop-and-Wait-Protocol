@@ -8,6 +8,7 @@
 #include <direct.h>
 #include <vector>
 #include <conio.h>
+#include <time.h>
 #include <sstream>
 #include <string>
 
@@ -18,10 +19,10 @@ public:
 	Server();
 	Server(SOCKET);
 	void run(SOCKADDR_IN);
-	void list();
-	void put(std::string);
-	void get(std::string);
-	void deleteFile(std::string);
+	void list(int);
+	void put(std::string, int);
+	void get(std::string, int);
+	void deleteFile(std::string, int);
 	void handshake();
 
 	// variables

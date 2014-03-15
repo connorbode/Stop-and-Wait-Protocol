@@ -12,9 +12,9 @@ Terminal::Terminal(SOCKET s) {
 char* Terminal::handshake(char* message) {
 	
 	char response[128] = "";
-	int rando = rand() % 255;
-	cout << "Generated random number " << rando << "\n";
-	string rands = ";RAND:" + to_string(rando) + ";";
+	int CR = rand() % 255;
+	cout << "Generated CR " << CR << "\n";
+	string rands = ";CR:" + to_string(CR) + ";";
 	char newMessage[128] = "";
 	strcat(newMessage, message);
 	strcat(newMessage, rands.c_str());
@@ -22,10 +22,24 @@ char* Terminal::handshake(char* message) {
 	// loop until we get a proper response from the server
 	cout << "Sending request..\n\n";
 	while(strcmp(response, "") == 0) {
+
 		transfer.sendMessage(newMessage);
 		strcpy(response, transfer.receiveMessage());
 	}
-	cout << "received response.  sending ack.";
+	
+	/*cout << "Received response " << response;
+
+	// extract CR and SR
+	string messageString(response);
+	int startIndex = messageString.find("CR:");
+	int endIndex = messageString.find(";", startIndex);
+	int CR_incoming = stoi(messageString.substr(startIndex + 3, endIndex - startIndex - 3));
+	startIndex = messageString.find("SR:");
+	endIndex = messageString.find(";", startIndex);
+	int SR = stoi(messageString.substr(startIndex + 3, endIndex - startIndex - 3));
+
+	cout << "Received CR " << CR_incoming << "\n";
+	cout << "Received SR " << SR << "\n";*/
 
 	transfer.sendMessage("ok");
 
@@ -217,9 +231,17 @@ void Terminal::listRemote() {
 		size_t pos = 0;
 		string token;
 		while((pos = fileString.find(delimiter)) != string::npos) {
+
 			token = fileString.substr(0, pos);
-			cout << "- " << token << "\n\r";
-			fileString.erase(0, pos + 1);
+
+			if(token.substr(0,4).compare("RAND") == 0) {
+				// Find random number from handshake
+
+			} else {
+				// Process file list
+				cout << "- " << token << "\n\r";
+				fileString.erase(0, pos + 1);
+			}
 		}
 	}
 
