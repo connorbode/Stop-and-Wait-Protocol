@@ -7,6 +7,7 @@ Server::Server() {};
 Server::Server(SOCKET s) {
 	
 	transfer = Transfer(s);
+	srand((unsigned)time(NULL));
 }
 
 
@@ -79,8 +80,14 @@ void Server::run(SOCKADDR_IN fromAddr) {
  */
 void Server::list(int CR) {
 
+	// Generate server random number
+	int SR = rand() % 255;
+	cout << "Generated SR " << SR << "\n";
+
 	// Filelist to send
+	string fileListString = "SR:" + to_string(SR) + ";CR:" + to_string(CR) + ";";
 	char fileList[128] = "";
+	strcat(fileList, fileListString.c_str());
 
 	// Open directory
 	if ((dir = opendir(directory)) != NULL) {

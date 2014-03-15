@@ -17,7 +17,7 @@ public:
 	// functions
 	Terminal();
 	Terminal(SOCKET);
-	char* handshake(char*);
+	std::string handshake(char*);
 	void run(SOCKADDR_IN);
 	bool process(const char *);
 	void quit();

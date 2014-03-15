@@ -9,7 +9,7 @@ Terminal::Terminal(SOCKET s) {
 	srand((unsigned)time(NULL));
 }
 
-char* Terminal::handshake(char* message) {
+string Terminal::handshake(char* message) {
 	
 	char response[128] = "";
 	int CR = rand() % 255;
@@ -25,11 +25,27 @@ char* Terminal::handshake(char* message) {
 		transfer.sendMessage(newMessage);
 		strcpy(response, transfer.receiveMessage());
 	}
-	cout << "received response.  sending ack.";
+	cout << "Received response " << response << "\n";
+
+	// extract CR and SR
+	string messageString(response);
+	int startIndex = messageString.find("CR:");
+	int endIndex = messageString.find(";", startIndex);
+	int CR_incoming = stoi(messageString.substr(startIndex + 3, endIndex - startIndex - 3));
+	messageString = messageString.substr(0, startIndex) + messageString.substr(endIndex + 1, messageString.length() - endIndex);
+	startIndex = messageString.find("SR:");
+	endIndex = messageString.find(";", startIndex);
+	int SR = stoi(messageString.substr(startIndex + 3, endIndex - startIndex - 3));
+	messageString = messageString.substr(0, startIndex) + messageString.substr(endIndex + 1, messageString.length() - endIndex);
+
+	cout << "Modified response " << messageString << "\n";
+
+	cout << "Received CR " << CR_incoming << "\n";
+	cout << "Received SR " << SR << "\n";
 
 	transfer.sendMessage("ok");
 
-	return response;
+	return messageString;
 }
 
 /**
@@ -194,7 +210,8 @@ void Terminal::listRemote() {
 
 	// Receive file list
 	char response[128];
-	strcpy(response, handshake("list"));
+	string r = handshake("list");
+	strcpy(response, r.c_str());
 
 	// Check if the file list is empty
 	if(strcmp(&response[0], ";") == 0) {
