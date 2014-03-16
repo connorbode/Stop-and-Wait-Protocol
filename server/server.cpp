@@ -288,12 +288,21 @@ void Server::get(string request, int CR) {
 	FILE* stream;
 	filename = "files\\" + filename;
 
+	int SR = generateSR();
+
 	// If we can open the file
 	if((stream = fopen(filename.c_str(), "rb")) != NULL) {
+
+		string hsResponse = generateSRResponse(CR, SR) + transfer.generatePutHeader(stream, filename);
+		transfer.setCRSR(CR, SR);
+		char responseChar[128] = "";
+		strcpy(responseChar, hsResponse.c_str());
+		transfer.sendMessage(responseChar);
 		
 		cout << "file opened\n";
 
 		// Send the file
+		
 		transfer.sendFile(stream, filename.c_str(), false);
 
 		// Close the filestream
@@ -302,7 +311,12 @@ void Server::get(string request, int CR) {
 
 	// If we couldn't open the file
 	else {
-		transfer.sendMessage("could not open file");
+		
+		string hsResponse = generateSRResponse(CR, SR) + "could not open file";
+		char responseChar[128] = "";
+		strcpy(responseChar, hsResponse.c_str());
+		transfer.sendMessage(responseChar);
+		receiveSRConfirmation(SR);
 	}
 
 }

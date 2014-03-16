@@ -1,6 +1,6 @@
 
 #include "transfer.h"
-#define UTIMER 30000000
+#define UTIMER 300000
 #define STIMER 0
 using namespace std;
 
@@ -13,6 +13,16 @@ Transfer::Transfer(SOCKET s) {
 	HEADER_LENGTH = 43;
 	timeouts.tv_sec = STIMER;
 	timeouts.tv_usec = UTIMER;
+}
+
+Transfer::~Transfer() {
+}
+
+void Transfer::log(string message) {
+	ofstream fout;
+	fout.open("log.txt", std::ofstream::app);
+	fout << message << "\n";
+	fout.close();
 }
 
 bool Transfer::sendMessage(char* message) {
@@ -52,7 +62,7 @@ char* Transfer::receiveMessage() {
 	return szbuffer;
 }
 
-string Transfer::generateHeader(FILE *stream, string filename) {
+string Transfer::generatePutHeader(FILE *stream, string filename) {
 	
 	// Get the filesize
 	long fileSize;
@@ -85,6 +95,7 @@ string Transfer::generateHeader(FILE *stream, string filename) {
 	return header;
 }
 
+
 bool Transfer::sendFile(FILE *stream, string filename, bool put) {
 
 	// Get first seq number
@@ -99,6 +110,8 @@ bool Transfer::sendFile(FILE *stream, string filename, bool put) {
 	char *fileBuffer = new char[size];
 	result = fread(fileBuffer, 1, size, stream);
 	printf("Read %ld bytes to memory", result);
+
+	int bytesSent = 0;
 
 	// Send packets
 	for(int i = 0; i < numPackets; i++) {
@@ -132,7 +145,10 @@ bool Transfer::sendFile(FILE *stream, string filename, bool put) {
 			else {
 				cout << "\n\r";
 				cout << "Sending packet " << i << ", seq #" << seq << ", size " << packetSize << ", bytes sent " << ibytessent;
+				log("sent packet " + to_string(i) + ", seq #" + to_string(seq));
 			}
+
+			bytesSent += ibytessent;
 
 			// receive ack
 			char ackMsg[128] = "";
@@ -152,6 +168,8 @@ bool Transfer::sendFile(FILE *stream, string filename, bool put) {
 				bool sequenceBit = (ackMsg[0] >> 0) & 0x1;
 				if((sequenceBit && seq == 1) || (! sequenceBit && seq == 0)) {
 					ack = true;
+					string sequenceBitString = (sequenceBit ? "1" : "0");
+					log("received ack for seq #" + sequenceBitString);
 				}
 			}
 		}
@@ -159,8 +177,13 @@ bool Transfer::sendFile(FILE *stream, string filename, bool put) {
 		seq = (seq == 1 ? 0 : 1);
 	}
 
-
-
+	cout << "Send complete \n";
+	log("file transfer completed");
+	int effectiveBytes = result;
+	log("number of effective bytes sent: " + to_string(effectiveBytes));
+	log("number of packets sent: " + to_string(numPackets));
+	log("number of bytes sent: " + to_string(bytesSent));
+	log("");
 
 	return true;
 }
@@ -186,16 +209,19 @@ void Transfer::receiveFile(FILE *stream, int numPackets, int lastPacketSize, boo
 
 		while( ! recvCorrectPacket) {
 
+			cout << "Expecting seq #" << seq << "\n";
+
 			// Reset buffer
 			memset(&szbuffer,0,sizeof(szbuffer));
 
-			// Receive packet to buffer
-			FD_ZERO(&readfds);
-			FD_SET(s, &readfds);
 
 			bool recv = false;
 
 			while(! recv) {
+				// Receive packet to buffer
+				FD_ZERO(&readfds);
+				FD_SET(s, &readfds);
+
 				int outfds;
 				if((outfds = select (1 , &readfds, NULL, NULL, & timeouts))==SOCKET_ERROR) {//timed out, 
 					//throw "timeout!!!";
@@ -209,6 +235,9 @@ void Transfer::receiveFile(FILE *stream, int numPackets, int lastPacketSize, boo
 
 			// received sequence #
 			bool packetSeq = (szbuffer[packetSize] >> 0) & 0x1;
+
+			string packetSeqString = (packetSeq ? "1" : "0");
+			log("received packet " + packetSeqString);
 
 			// send ACK
 			char ack[128] = "";
@@ -226,6 +255,7 @@ void Transfer::receiveFile(FILE *stream, int numPackets, int lastPacketSize, boo
 				throw "Send failed\n";  
 			else {
 				cout << "Sending ACK for seq #" << (packetSeq ? 1 : 0) <<  "\n";
+				log("sent ACK for packet " + packetSeqString);
 			}
 						
 			// check if we received the right packet
@@ -250,6 +280,10 @@ void Transfer::receiveFile(FILE *stream, int numPackets, int lastPacketSize, boo
 	int byteswritten = fwrite(fileBuffer, 1, filesize, stream);
 
 	printf("Wrote %ld bytes \n", byteswritten);
+
+	log("transfer completed");
+	log("bytes received: " + to_string(byteswritten));
+	log("");
 }
 
 void Transfer::setCRSR(int CR, int SR) {

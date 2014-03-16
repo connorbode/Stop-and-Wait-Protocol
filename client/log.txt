@@ -1,0 +1,6687 @@
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+transfer completed
+bytes received: 66353
+
+sent packet 0, seq #1
+received ack for seq #1
+sent packet 1, seq #0
+received ack for seq #0
+sent packet 2, seq #1
+received ack for seq #1
+sent packet 3, seq #0
+received ack for seq #0
+sent packet 4, seq #1
+received ack for seq #1
+sent packet 5, seq #0
+received ack for seq #0
+sent packet 6, seq #1
+received ack for seq #1
+sent packet 7, seq #0
+received ack for seq #0
+sent packet 8, seq #1
+received ack for seq #1
+sent packet 9, seq #0
+received ack for seq #0
+sent packet 10, seq #1
+received ack for seq #1
+sent packet 11, seq #0
+received ack for seq #0
+sent packet 12, seq #1
+received ack for seq #1
+sent packet 13, seq #0
+received ack for seq #0
+sent packet 14, seq #1
+received ack for seq #1
+sent packet 15, seq #0
+received ack for seq #0
+sent packet 16, seq #1
+received ack for seq #1
+sent packet 17, seq #0
+received ack for seq #0
+sent packet 18, seq #1
+received ack for seq #1
+sent packet 19, seq #0
+received ack for seq #0
+sent packet 20, seq #1
+received ack for seq #1
+sent packet 21, seq #0
+received ack for seq #0
+sent packet 22, seq #1
+received ack for seq #1
+sent packet 23, seq #0
+received ack for seq #0
+sent packet 24, seq #1
+received ack for seq #1
+sent packet 25, seq #0
+received ack for seq #0
+sent packet 26, seq #1
+received ack for seq #1
+sent packet 27, seq #0
+received ack for seq #0
+sent packet 28, seq #1
+received ack for seq #1
+sent packet 29, seq #0
+received ack for seq #0
+sent packet 30, seq #1
+received ack for seq #1
+sent packet 31, seq #0
+sent packet 31, seq #0
+received ack for seq #0
+sent packet 32, seq #1
+received ack for seq #1
+sent packet 33, seq #0
+received ack for seq #0
+sent packet 34, seq #1
+received ack for seq #1
+sent packet 35, seq #0
+received ack for seq #0
+sent packet 36, seq #1
+received ack for seq #1
+sent packet 37, seq #0
+received ack for seq #0
+sent packet 38, seq #1
+received ack for seq #1
+sent packet 39, seq #0
+received ack for seq #0
+sent packet 40, seq #1
+received ack for seq #1
+sent packet 41, seq #0
+received ack for seq #0
+sent packet 42, seq #1
+received ack for seq #1
+sent packet 43, seq #0
+received ack for seq #0
+sent packet 44, seq #1
+received ack for seq #1
+sent packet 45, seq #0
+received ack for seq #0
+sent packet 46, seq #1
+received ack for seq #1
+sent packet 47, seq #0
+sent packet 47, seq #0
+received ack for seq #0
+sent packet 48, seq #1
+received ack for seq #1
+sent packet 49, seq #0
+received ack for seq #0
+sent packet 50, seq #1
+received ack for seq #1
+sent packet 51, seq #0
+received ack for seq #0
+sent packet 52, seq #1
+received ack for seq #1
+sent packet 53, seq #0
+received ack for seq #0
+sent packet 54, seq #1
+received ack for seq #1
+sent packet 55, seq #0
+received ack for seq #0
+sent packet 56, seq #1
+received ack for seq #1
+sent packet 57, seq #0
+received ack for seq #0
+sent packet 58, seq #1
+received ack for seq #1
+sent packet 59, seq #0
+received ack for seq #0
+sent packet 60, seq #1
+received ack for seq #1
+sent packet 61, seq #0
+received ack for seq #0
+sent packet 62, seq #1
+received ack for seq #1
+sent packet 63, seq #0
+received ack for seq #0
+sent packet 64, seq #1
+received ack for seq #1
+sent packet 65, seq #0
+received ack for seq #0
+sent packet 66, seq #1
+received ack for seq #1
+sent packet 67, seq #0
+received ack for seq #0
+sent packet 68, seq #1
+received ack for seq #1
+sent packet 69, seq #0
+received ack for seq #0
+sent packet 70, seq #1
+sent packet 70, seq #1
+sent packet 70, seq #1
+received ack for seq #1
+sent packet 71, seq #0
+received ack for seq #0
+sent packet 72, seq #1
+received ack for seq #1
+sent packet 73, seq #0
+received ack for seq #0
+sent packet 74, seq #1
+received ack for seq #1
+sent packet 75, seq #0
+received ack for seq #0
+sent packet 76, seq #1
+received ack for seq #1
+sent packet 77, seq #0
+received ack for seq #0
+sent packet 78, seq #1
+received ack for seq #1
+sent packet 79, seq #0
+received ack for seq #0
+sent packet 80, seq #1
+sent packet 80, seq #1
+received ack for seq #1
+sent packet 81, seq #0
+received ack for seq #0
+sent packet 82, seq #1
+received ack for seq #1
+sent packet 83, seq #0
+received ack for seq #0
+sent packet 84, seq #1
+received ack for seq #1
+sent packet 85, seq #0
+received ack for seq #0
+sent packet 86, seq #1
+received ack for seq #1
+sent packet 87, seq #0
+received ack for seq #0
+sent packet 88, seq #1
+received ack for seq #1
+sent packet 89, seq #0
+sent packet 89, seq #0
+received ack for seq #0
+sent packet 90, seq #1
+sent packet 90, seq #1
+received ack for seq #1
+sent packet 91, seq #0
+received ack for seq #0
+sent packet 92, seq #1
+received ack for seq #1
+sent packet 93, seq #0
+received ack for seq #0
+sent packet 94, seq #1
+received ack for seq #1
+sent packet 95, seq #0
+received ack for seq #0
+sent packet 96, seq #1
+received ack for seq #1
+sent packet 97, seq #0
+sent packet 97, seq #0
+received ack for seq #0
+sent packet 98, seq #1
+received ack for seq #1
+sent packet 99, seq #0
+received ack for seq #0
+sent packet 100, seq #1
+received ack for seq #1
+sent packet 101, seq #0
+received ack for seq #0
+sent packet 102, seq #1
+received ack for seq #1
+sent packet 103, seq #0
+received ack for seq #0
+sent packet 104, seq #1
+received ack for seq #1
+sent packet 105, seq #0
+received ack for seq #0
+sent packet 106, seq #1
+received ack for seq #1
+sent packet 107, seq #0
+received ack for seq #0
+sent packet 108, seq #1
+received ack for seq #1
+sent packet 109, seq #0
+received ack for seq #0
+sent packet 110, seq #1
+received ack for seq #1
+sent packet 111, seq #0
+received ack for seq #0
+sent packet 112, seq #1
+received ack for seq #1
+sent packet 113, seq #0
+received ack for seq #0
+sent packet 114, seq #1
+received ack for seq #1
+sent packet 115, seq #0
+received ack for seq #0
+sent packet 116, seq #1
+received ack for seq #1
+sent packet 117, seq #0
+received ack for seq #0
+sent packet 118, seq #1
+received ack for seq #1
+sent packet 119, seq #0
+received ack for seq #0
+sent packet 120, seq #1
+received ack for seq #1
+sent packet 121, seq #0
+received ack for seq #0
+sent packet 122, seq #1
+received ack for seq #1
+sent packet 123, seq #0
+received ack for seq #0
+sent packet 124, seq #1
+received ack for seq #1
+sent packet 125, seq #0
+sent packet 125, seq #0
+received ack for seq #0
+sent packet 126, seq #1
+sent packet 126, seq #1
+received ack for seq #1
+sent packet 127, seq #0
+received ack for seq #0
+sent packet 128, seq #1
+received ack for seq #1
+sent packet 129, seq #0
+received ack for seq #0
+sent packet 130, seq #1
+received ack for seq #1
+sent packet 131, seq #0
+sent packet 131, seq #0
+received ack for seq #0
+sent packet 132, seq #1
+received ack for seq #1
+sent packet 133, seq #0
+received ack for seq #0
+sent packet 134, seq #1
+received ack for seq #1
+sent packet 135, seq #0
+received ack for seq #0
+sent packet 136, seq #1
+received ack for seq #1
+sent packet 137, seq #0
+received ack for seq #0
+sent packet 138, seq #1
+received ack for seq #1
+sent packet 139, seq #0
+received ack for seq #0
+sent packet 140, seq #1
+received ack for seq #1
+sent packet 141, seq #0
+received ack for seq #0
+sent packet 142, seq #1
+received ack for seq #1
+sent packet 143, seq #0
+received ack for seq #0
+sent packet 144, seq #1
+received ack for seq #1
+sent packet 145, seq #0
+received ack for seq #0
+sent packet 146, seq #1
+received ack for seq #1
+sent packet 147, seq #0
+received ack for seq #0
+sent packet 148, seq #1
+received ack for seq #1
+sent packet 149, seq #0
+received ack for seq #0
+sent packet 150, seq #1
+received ack for seq #1
+sent packet 151, seq #0
+received ack for seq #0
+sent packet 152, seq #1
+received ack for seq #1
+sent packet 153, seq #0
+sent packet 153, seq #0
+received ack for seq #0
+sent packet 154, seq #1
+received ack for seq #1
+sent packet 155, seq #0
+sent packet 155, seq #0
+received ack for seq #0
+sent packet 156, seq #1
+received ack for seq #1
+sent packet 157, seq #0
+received ack for seq #0
+sent packet 158, seq #1
+received ack for seq #1
+sent packet 159, seq #0
+received ack for seq #0
+sent packet 160, seq #1
+received ack for seq #1
+sent packet 161, seq #0
+received ack for seq #0
+sent packet 162, seq #1
+received ack for seq #1
+sent packet 163, seq #0
+received ack for seq #0
+sent packet 164, seq #1
+received ack for seq #1
+sent packet 165, seq #0
+received ack for seq #0
+sent packet 166, seq #1
+received ack for seq #1
+sent packet 167, seq #0
+received ack for seq #0
+sent packet 168, seq #1
+received ack for seq #1
+sent packet 169, seq #0
+received ack for seq #0
+sent packet 170, seq #1
+received ack for seq #1
+sent packet 171, seq #0
+received ack for seq #0
+sent packet 172, seq #1
+received ack for seq #1
+sent packet 173, seq #0
+received ack for seq #0
+sent packet 174, seq #1
+received ack for seq #1
+sent packet 175, seq #0
+received ack for seq #0
+sent packet 176, seq #1
+received ack for seq #1
+sent packet 177, seq #0
+received ack for seq #0
+sent packet 178, seq #1
+received ack for seq #1
+sent packet 179, seq #0
+sent packet 179, seq #0
+received ack for seq #0
+sent packet 180, seq #1
+received ack for seq #1
+sent packet 181, seq #0
+received ack for seq #0
+sent packet 182, seq #1
+sent packet 182, seq #1
+received ack for seq #1
+sent packet 183, seq #0
+sent packet 183, seq #0
+received ack for seq #0
+sent packet 184, seq #1
+received ack for seq #1
+sent packet 185, seq #0
+received ack for seq #0
+sent packet 186, seq #1
+received ack for seq #1
+sent packet 187, seq #0
+sent packet 187, seq #0
+sent packet 187, seq #0
+received ack for seq #0
+sent packet 188, seq #1
+sent packet 188, seq #1
+received ack for seq #1
+sent packet 189, seq #0
+received ack for seq #0
+sent packet 190, seq #1
+received ack for seq #1
+sent packet 191, seq #0
+received ack for seq #0
+sent packet 192, seq #1
+received ack for seq #1
+sent packet 193, seq #0
+received ack for seq #0
+sent packet 194, seq #1
+received ack for seq #1
+sent packet 195, seq #0
+received ack for seq #0
+sent packet 196, seq #1
+received ack for seq #1
+sent packet 197, seq #0
+sent packet 197, seq #0
+received ack for seq #0
+sent packet 198, seq #1
+received ack for seq #1
+sent packet 199, seq #0
+received ack for seq #0
+sent packet 200, seq #1
+received ack for seq #1
+sent packet 201, seq #0
+received ack for seq #0
+sent packet 202, seq #1
+received ack for seq #1
+sent packet 203, seq #0
+received ack for seq #0
+sent packet 204, seq #1
+received ack for seq #1
+sent packet 205, seq #0
+received ack for seq #0
+sent packet 206, seq #1
+received ack for seq #1
+sent packet 207, seq #0
+received ack for seq #0
+sent packet 208, seq #1
+received ack for seq #1
+sent packet 209, seq #0
+received ack for seq #0
+sent packet 210, seq #1
+received ack for seq #1
+sent packet 211, seq #0
+received ack for seq #0
+sent packet 212, seq #1
+received ack for seq #1
+sent packet 213, seq #0
+received ack for seq #0
+sent packet 214, seq #1
+sent packet 214, seq #1
+received ack for seq #1
+sent packet 215, seq #0
+received ack for seq #0
+sent packet 216, seq #1
+received ack for seq #1
+sent packet 217, seq #0
+received ack for seq #0
+sent packet 218, seq #1
+received ack for seq #1
+sent packet 219, seq #0
+received ack for seq #0
+sent packet 220, seq #1
+received ack for seq #1
+sent packet 221, seq #0
+received ack for seq #0
+sent packet 222, seq #1
+received ack for seq #1
+sent packet 223, seq #0
+received ack for seq #0
+sent packet 224, seq #1
+received ack for seq #1
+sent packet 225, seq #0
+received ack for seq #0
+sent packet 226, seq #1
+received ack for seq #1
+sent packet 227, seq #0
+received ack for seq #0
+sent packet 228, seq #1
+received ack for seq #1
+sent packet 229, seq #0
+received ack for seq #0
+sent packet 230, seq #1
+received ack for seq #1
+sent packet 231, seq #0
+sent packet 231, seq #0
+received ack for seq #0
+sent packet 232, seq #1
+received ack for seq #1
+sent packet 233, seq #0
+received ack for seq #0
+sent packet 234, seq #1
+received ack for seq #1
+sent packet 235, seq #0
+received ack for seq #0
+sent packet 236, seq #1
+received ack for seq #1
+sent packet 237, seq #0
+received ack for seq #0
+sent packet 238, seq #1
+sent packet 238, seq #1
+received ack for seq #1
+sent packet 239, seq #0
+received ack for seq #0
+sent packet 240, seq #1
+received ack for seq #1
+sent packet 241, seq #0
+received ack for seq #0
+sent packet 242, seq #1
+received ack for seq #1
+sent packet 243, seq #0
+received ack for seq #0
+sent packet 244, seq #1
+received ack for seq #1
+sent packet 245, seq #0
+received ack for seq #0
+sent packet 246, seq #1
+received ack for seq #1
+sent packet 247, seq #0
+received ack for seq #0
+sent packet 248, seq #1
+received ack for seq #1
+sent packet 249, seq #0
+sent packet 249, seq #0
+received ack for seq #0
+sent packet 250, seq #1
+received ack for seq #1
+sent packet 251, seq #0
+received ack for seq #0
+sent packet 252, seq #1
+received ack for seq #1
+sent packet 253, seq #0
+received ack for seq #0
+sent packet 254, seq #1
+received ack for seq #1
+sent packet 255, seq #0
+received ack for seq #0
+sent packet 256, seq #1
+received ack for seq #1
+sent packet 257, seq #0
+received ack for seq #0
+sent packet 258, seq #1
+sent packet 258, seq #1
+received ack for seq #1
+sent packet 259, seq #0
+received ack for seq #0
+sent packet 260, seq #1
+received ack for seq #1
+sent packet 261, seq #0
+received ack for seq #0
+sent packet 262, seq #1
+received ack for seq #1
+sent packet 263, seq #0
+received ack for seq #0
+sent packet 264, seq #1
+received ack for seq #1
+sent packet 265, seq #0
+received ack for seq #0
+sent packet 266, seq #1
+received ack for seq #1
+sent packet 267, seq #0
+received ack for seq #0
+sent packet 268, seq #1
+received ack for seq #1
+sent packet 269, seq #0
+received ack for seq #0
+sent packet 270, seq #1
+received ack for seq #1
+sent packet 271, seq #0
+received ack for seq #0
+sent packet 272, seq #1
+received ack for seq #1
+sent packet 273, seq #0
+sent packet 273, seq #0
+received ack for seq #0
+sent packet 274, seq #1
+received ack for seq #1
+sent packet 275, seq #0
+received ack for seq #0
+sent packet 276, seq #1
+received ack for seq #1
+sent packet 277, seq #0
+sent packet 277, seq #0
+received ack for seq #0
+sent packet 278, seq #1
+received ack for seq #1
+sent packet 279, seq #0
+received ack for seq #0
+sent packet 280, seq #1
+received ack for seq #1
+sent packet 281, seq #0
+received ack for seq #0
+sent packet 282, seq #1
+received ack for seq #1
+sent packet 283, seq #0
+received ack for seq #0
+sent packet 284, seq #1
+received ack for seq #1
+sent packet 285, seq #0
+received ack for seq #0
+sent packet 286, seq #1
+received ack for seq #1
+sent packet 287, seq #0
+received ack for seq #0
+sent packet 288, seq #1
+received ack for seq #1
+sent packet 289, seq #0
+received ack for seq #0
+sent packet 290, seq #1
+sent packet 290, seq #1
+received ack for seq #1
+sent packet 291, seq #0
+received ack for seq #0
+sent packet 292, seq #1
+received ack for seq #1
+sent packet 293, seq #0
+sent packet 293, seq #0
+received ack for seq #0
+sent packet 294, seq #1
+received ack for seq #1
+sent packet 295, seq #0
+sent packet 295, seq #0
+received ack for seq #0
+sent packet 296, seq #1
+received ack for seq #1
+sent packet 297, seq #0
+received ack for seq #0
+sent packet 298, seq #1
+received ack for seq #1
+sent packet 299, seq #0
+received ack for seq #0
+sent packet 300, seq #1
+received ack for seq #1
+sent packet 301, seq #0
+received ack for seq #0
+sent packet 302, seq #1
+sent packet 302, seq #1
+received ack for seq #1
+sent packet 303, seq #0
+received ack for seq #0
+sent packet 304, seq #1
+received ack for seq #1
+sent packet 305, seq #0
+received ack for seq #0
+sent packet 306, seq #1
+sent packet 306, seq #1
+received ack for seq #1
+sent packet 307, seq #0
+received ack for seq #0
+sent packet 308, seq #1
+sent packet 308, seq #1
+received ack for seq #1
+sent packet 309, seq #0
+received ack for seq #0
+sent packet 310, seq #1
+received ack for seq #1
+sent packet 311, seq #0
+received ack for seq #0
+sent packet 312, seq #1
+received ack for seq #1
+sent packet 313, seq #0
+received ack for seq #0
+sent packet 314, seq #1
+received ack for seq #1
+sent packet 315, seq #0
+received ack for seq #0
+sent packet 316, seq #1
+received ack for seq #1
+sent packet 317, seq #0
+received ack for seq #0
+sent packet 318, seq #1
+received ack for seq #1
+sent packet 319, seq #0
+sent packet 319, seq #0
+received ack for seq #0
+sent packet 320, seq #1
+received ack for seq #1
+sent packet 321, seq #0
+received ack for seq #0
+sent packet 322, seq #1
+received ack for seq #1
+sent packet 323, seq #0
+received ack for seq #0
+sent packet 324, seq #1
+received ack for seq #1
+sent packet 325, seq #0
+received ack for seq #0
+sent packet 326, seq #1
+received ack for seq #1
+sent packet 327, seq #0
+received ack for seq #0
+sent packet 328, seq #1
+received ack for seq #1
+sent packet 329, seq #0
+sent packet 329, seq #0
+received ack for seq #0
+sent packet 330, seq #1
+received ack for seq #1
+sent packet 331, seq #0
+received ack for seq #0
+sent packet 332, seq #1
+sent packet 332, seq #1
+received ack for seq #1
+sent packet 333, seq #0
+received ack for seq #0
+sent packet 334, seq #1
+received ack for seq #1
+sent packet 335, seq #0
+received ack for seq #0
+sent packet 336, seq #1
+received ack for seq #1
+sent packet 337, seq #0
+received ack for seq #0
+sent packet 338, seq #1
+received ack for seq #1
+sent packet 339, seq #0
+received ack for seq #0
+sent packet 340, seq #1
+received ack for seq #1
+sent packet 341, seq #0
+received ack for seq #0
+sent packet 342, seq #1
+sent packet 342, seq #1
+received ack for seq #1
+sent packet 343, seq #0
+received ack for seq #0
+sent packet 344, seq #1
+received ack for seq #1
+sent packet 345, seq #0
+received ack for seq #0
+sent packet 346, seq #1
+received ack for seq #1
+sent packet 347, seq #0
+received ack for seq #0
+sent packet 348, seq #1
+received ack for seq #1
+sent packet 349, seq #0
+received ack for seq #0
+sent packet 350, seq #1
+received ack for seq #1
+sent packet 351, seq #0
+received ack for seq #0
+sent packet 352, seq #1
+received ack for seq #1
+sent packet 353, seq #0
+received ack for seq #0
+sent packet 354, seq #1
+received ack for seq #1
+sent packet 355, seq #0
+received ack for seq #0
+sent packet 356, seq #1
+received ack for seq #1
+sent packet 357, seq #0
+received ack for seq #0
+sent packet 358, seq #1
+received ack for seq #1
+sent packet 359, seq #0
+received ack for seq #0
+sent packet 360, seq #1
+received ack for seq #1
+sent packet 361, seq #0
+received ack for seq #0
+sent packet 362, seq #1
+received ack for seq #1
+sent packet 363, seq #0
+received ack for seq #0
+sent packet 364, seq #1
+received ack for seq #1
+sent packet 365, seq #0
+received ack for seq #0
+sent packet 366, seq #1
+received ack for seq #1
+sent packet 367, seq #0
+received ack for seq #0
+sent packet 368, seq #1
+received ack for seq #1
+sent packet 369, seq #0
+received ack for seq #0
+sent packet 370, seq #1
+received ack for seq #1
+sent packet 371, seq #0
+received ack for seq #0
+sent packet 372, seq #1
+received ack for seq #1
+sent packet 373, seq #0
+received ack for seq #0
+sent packet 374, seq #1
+received ack for seq #1
+sent packet 375, seq #0
+received ack for seq #0
+sent packet 376, seq #1
+received ack for seq #1
+sent packet 377, seq #0
+received ack for seq #0
+sent packet 378, seq #1
+received ack for seq #1
+sent packet 379, seq #0
+received ack for seq #0
+sent packet 380, seq #1
+received ack for seq #1
+sent packet 381, seq #0
+sent packet 381, seq #0
+received ack for seq #0
+sent packet 382, seq #1
+sent packet 382, seq #1
+received ack for seq #1
+sent packet 383, seq #0
+received ack for seq #0
+sent packet 384, seq #1
+received ack for seq #1
+sent packet 385, seq #0
+received ack for seq #0
+sent packet 386, seq #1
+received ack for seq #1
+sent packet 387, seq #0
+received ack for seq #0
+sent packet 388, seq #1
+received ack for seq #1
+sent packet 389, seq #0
+received ack for seq #0
+sent packet 390, seq #1
+sent packet 390, seq #1
+received ack for seq #1
+sent packet 391, seq #0
+received ack for seq #0
+sent packet 392, seq #1
+received ack for seq #1
+sent packet 393, seq #0
+received ack for seq #0
+sent packet 394, seq #1
+received ack for seq #1
+sent packet 395, seq #0
+received ack for seq #0
+sent packet 396, seq #1
+sent packet 396, seq #1
+received ack for seq #1
+sent packet 397, seq #0
+sent packet 397, seq #0
+received ack for seq #0
+sent packet 398, seq #1
+received ack for seq #1
+sent packet 399, seq #0
+received ack for seq #0
+sent packet 400, seq #1
+received ack for seq #1
+sent packet 401, seq #0
+received ack for seq #0
+sent packet 402, seq #1
+received ack for seq #1
+sent packet 403, seq #0
+received ack for seq #0
+sent packet 404, seq #1
+received ack for seq #1
+sent packet 405, seq #0
+received ack for seq #0
+sent packet 406, seq #1
+received ack for seq #1
+sent packet 407, seq #0
+received ack for seq #0
+sent packet 408, seq #1
+received ack for seq #1
+sent packet 409, seq #0
+received ack for seq #0
+sent packet 410, seq #1
+received ack for seq #1
+sent packet 411, seq #0
+received ack for seq #0
+sent packet 412, seq #1
+received ack for seq #1
+sent packet 413, seq #0
+received ack for seq #0
+sent packet 414, seq #1
+received ack for seq #1
+sent packet 415, seq #0
+received ack for seq #0
+sent packet 416, seq #1
+received ack for seq #1
+sent packet 417, seq #0
+received ack for seq #0
+sent packet 418, seq #1
+received ack for seq #1
+sent packet 419, seq #0
+received ack for seq #0
+sent packet 420, seq #1
+received ack for seq #1
+sent packet 421, seq #0
+received ack for seq #0
+sent packet 422, seq #1
+received ack for seq #1
+sent packet 423, seq #0
+received ack for seq #0
+sent packet 424, seq #1
+received ack for seq #1
+sent packet 425, seq #0
+received ack for seq #0
+sent packet 426, seq #1
+received ack for seq #1
+sent packet 427, seq #0
+received ack for seq #0
+sent packet 428, seq #1
+received ack for seq #1
+sent packet 429, seq #0
+received ack for seq #0
+sent packet 430, seq #1
+received ack for seq #1
+sent packet 431, seq #0
+received ack for seq #0
+sent packet 432, seq #1
+received ack for seq #1
+sent packet 433, seq #0
+received ack for seq #0
+sent packet 434, seq #1
+received ack for seq #1
+sent packet 435, seq #0
+received ack for seq #0
+sent packet 436, seq #1
+received ack for seq #1
+sent packet 437, seq #0
+received ack for seq #0
+sent packet 438, seq #1
+received ack for seq #1
+sent packet 439, seq #0
+received ack for seq #0
+sent packet 440, seq #1
+sent packet 440, seq #1
+sent packet 440, seq #1
+sent packet 440, seq #1
+sent packet 440, seq #1
+received ack for seq #1
+sent packet 441, seq #0
+received ack for seq #0
+sent packet 442, seq #1
+received ack for seq #1
+sent packet 443, seq #0
+received ack for seq #0
+sent packet 444, seq #1
+received ack for seq #1
+sent packet 445, seq #0
+received ack for seq #0
+sent packet 446, seq #1
+received ack for seq #1
+sent packet 447, seq #0
+received ack for seq #0
+sent packet 448, seq #1
+received ack for seq #1
+sent packet 449, seq #0
+received ack for seq #0
+sent packet 450, seq #1
+sent packet 450, seq #1
+received ack for seq #1
+sent packet 451, seq #0
+received ack for seq #0
+sent packet 452, seq #1
+received ack for seq #1
+sent packet 453, seq #0
+received ack for seq #0
+sent packet 454, seq #1
+received ack for seq #1
+sent packet 455, seq #0
+sent packet 455, seq #0
+received ack for seq #0
+sent packet 456, seq #1
+received ack for seq #1
+sent packet 457, seq #0
+received ack for seq #0
+sent packet 458, seq #1
+received ack for seq #1
+sent packet 459, seq #0
+sent packet 459, seq #0
+received ack for seq #0
+sent packet 460, seq #1
+received ack for seq #1
+sent packet 461, seq #0
+sent packet 461, seq #0
+received ack for seq #0
+sent packet 462, seq #1
+received ack for seq #1
+sent packet 463, seq #0
+sent packet 463, seq #0
+received ack for seq #0
+sent packet 464, seq #1
+received ack for seq #1
+sent packet 465, seq #0
+received ack for seq #0
+sent packet 466, seq #1
+received ack for seq #1
+sent packet 467, seq #0
+received ack for seq #0
+sent packet 468, seq #1
+received ack for seq #1
+sent packet 469, seq #0
+received ack for seq #0
+sent packet 470, seq #1
+received ack for seq #1
+sent packet 471, seq #0
+received ack for seq #0
+sent packet 472, seq #1
+received ack for seq #1
+sent packet 473, seq #0
+received ack for seq #0
+sent packet 474, seq #1
+received ack for seq #1
+sent packet 475, seq #0
+sent packet 475, seq #0
+received ack for seq #0
+sent packet 476, seq #1
+received ack for seq #1
+sent packet 477, seq #0
+received ack for seq #0
+sent packet 478, seq #1
+received ack for seq #1
+sent packet 479, seq #0
+received ack for seq #0
+sent packet 480, seq #1
+received ack for seq #1
+sent packet 481, seq #0
+received ack for seq #0
+sent packet 482, seq #1
+received ack for seq #1
+sent packet 483, seq #0
+received ack for seq #0
+sent packet 484, seq #1
+received ack for seq #1
+sent packet 485, seq #0
+received ack for seq #0
+sent packet 486, seq #1
+received ack for seq #1
+sent packet 487, seq #0
+received ack for seq #0
+sent packet 488, seq #1
+received ack for seq #1
+sent packet 489, seq #0
+received ack for seq #0
+sent packet 490, seq #1
+received ack for seq #1
+sent packet 491, seq #0
+received ack for seq #0
+sent packet 492, seq #1
+received ack for seq #1
+sent packet 493, seq #0
+received ack for seq #0
+sent packet 494, seq #1
+received ack for seq #1
+sent packet 495, seq #0
+received ack for seq #0
+sent packet 496, seq #1
+received ack for seq #1
+sent packet 497, seq #0
+sent packet 497, seq #0
+received ack for seq #0
+sent packet 498, seq #1
+received ack for seq #1
+sent packet 499, seq #0
+received ack for seq #0
+sent packet 500, seq #1
+received ack for seq #1
+sent packet 501, seq #0
+received ack for seq #0
+sent packet 502, seq #1
+received ack for seq #1
+sent packet 503, seq #0
+received ack for seq #0
+sent packet 504, seq #1
+received ack for seq #1
+sent packet 505, seq #0
+received ack for seq #0
+sent packet 506, seq #1
+received ack for seq #1
+sent packet 507, seq #0
+received ack for seq #0
+sent packet 508, seq #1
+received ack for seq #1
+sent packet 509, seq #0
+received ack for seq #0
+sent packet 510, seq #1
+received ack for seq #1
+sent packet 511, seq #0
+received ack for seq #0
+sent packet 512, seq #1
+sent packet 512, seq #1
+received ack for seq #1
+sent packet 513, seq #0
+received ack for seq #0
+sent packet 514, seq #1
+received ack for seq #1
+sent packet 515, seq #0
+sent packet 515, seq #0
+received ack for seq #0
+sent packet 516, seq #1
+received ack for seq #1
+sent packet 517, seq #0
+received ack for seq #0
+sent packet 518, seq #1
+received ack for seq #1
+file transfer completed
+number of effective bytes sent: 66353
+number of packets sent: 519
+number of bytes sent: 73472
+
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+transfer completed
+bytes received: 66353
+
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+transfer completed
+bytes received: 66353
+
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1

@@ -4,6 +4,7 @@
 #include <WinSock2.h>
 #include <iostream>
 #include <sstream>
+#include <fstream>
 #include <string>
 
 class Transfer {
@@ -29,14 +30,16 @@ public:
 	// methods
 	Transfer::Transfer();
 	Transfer::Transfer(SOCKET);
+	Transfer::~Transfer();
 	bool sendMessage(char*);
 	bool sendMessage2(char*);
 	bool sendFile(FILE*, std::string, bool);
-	std::string generateHeader(FILE*, std::string);
+	std::string generatePutHeader(FILE*, std::string);
 	void receiveFile(FILE*, int, int, bool);
 	char* receiveMessage();
 	char* receiveMessage2();
 	void setCRSR(int, int);
+	void log(std::string);
 };
 
 #endif

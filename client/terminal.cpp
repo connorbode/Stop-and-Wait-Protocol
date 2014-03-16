@@ -18,6 +18,7 @@ string Terminal::handshake(char* message) {
 	while( ! CR_match) {
 		char response[128] = "";
 		int CR = rand() % 255;
+
 		cout << "Generated random number " << CR << "\n";
 		string rands = ";CR:" + to_string(CR) + ";";
 		char newMessage[128] = "";
@@ -36,7 +37,9 @@ string Terminal::handshake(char* message) {
 		messageString = string(response);
 		int startIndex = messageString.find("CR:");
 		int endIndex = messageString.find(";", startIndex);
-		int CR_incoming = stoi(messageString.substr(startIndex + 3, endIndex - startIndex - 3));
+		int subStrLen = endIndex - startIndex - 3;
+		int subStrStart = startIndex + 3;
+		int CR_incoming = stoi(messageString.substr(subStrStart, subStrLen));
 		messageString = messageString.substr(0, startIndex) + messageString.substr(endIndex + 1, messageString.length() - endIndex);
 		startIndex = messageString.find("SR:");
 		endIndex = messageString.find(";", startIndex);
@@ -283,7 +286,7 @@ void Terminal::putFile() {
 		cout << "file opened\n";
 
 		// get the header
-		string header = transfer.generateHeader(stream, fileName);
+		string header = transfer.generatePutHeader(stream, fileName);
 		char headerChar[128] = "";
 		strcpy(headerChar, header.c_str());
 
@@ -329,11 +332,11 @@ void Terminal::getFile() {
 	char header[128] = "get;filename:";
 	strcat(header, fileName);
 	strcat(header, ";");
-	transfer.sendMessage(header);
+	string r = handshake(header);
 
 	// Wait for a response
 	char response[128];
-	strcpy(response, transfer.receiveMessage());
+	strcpy(response, r.c_str());
 	stringstream ss;
 	string responseString;
 	ss << response;
