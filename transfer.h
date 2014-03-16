@@ -21,16 +21,22 @@ public:
 	int fromAddrSize;
 	struct timeval timeouts;	
 	fd_set readfds;
+	long numPackets;
+	long lastPacketSize;
+	int SR;
+	int CR;
 
 	// methods
 	Transfer::Transfer();
 	Transfer::Transfer(SOCKET);
 	bool sendMessage(char*);
 	bool sendMessage2(char*);
-	bool sendFile(FILE*, std::string);
-	void receiveFile(FILE*, int, int);
+	bool sendFile(FILE*, std::string, bool);
+	std::string generateHeader(FILE*, std::string);
+	void receiveFile(FILE*, int, int, bool);
 	char* receiveMessage();
 	char* receiveMessage2();
+	void setCRSR(int, int);
 };
 
 #endif

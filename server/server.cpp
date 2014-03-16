@@ -221,24 +221,34 @@ void Server::put(string request, int CR) {
 		request.erase(0, pos + 1);
 	}
 
-	// Establish connection to file
-	FILE *stream;
-	if((stream = fopen(filename.c_str(), "wb")) != NULL) {
+	// generate response
+	int SR = generateSR();
+	string hsResponse = generateSRResponse(CR, SR) + "ok";
+	char responseChar[128] = "";
+	strcpy(responseChar, hsResponse.c_str());
+	transfer.sendMessage(responseChar);
 
-		// Receive file
-		transfer.receiveFile(stream, numPackets, lastPacketSize);
+	if(receiveSRConfirmation(SR)) {
 
-		// Close the stream
-		fclose(stream);
+		transfer.setCRSR(CR, SR);
+
+		// Establish connection to file
+		FILE *stream;
+		if((stream = fopen(filename.c_str(), "wb")) != NULL) {
+
+			// Receive file
+			transfer.receiveFile(stream, numPackets, lastPacketSize, true);
+
+			// Close the stream
+			fclose(stream);
+		}
+
+		// If we couldn't create file
+		else {
+
+			cout << "Couldn't create file\n\n";
+		}
 	}
-
-	// If we couldn't create file
-	else {
-
-		cout << "Couldn't create file\n\n";
-	}
-	
-	
 }
 
 /**
@@ -284,7 +294,7 @@ void Server::get(string request, int CR) {
 		cout << "file opened\n";
 
 		// Send the file
-		transfer.sendFile(stream, filename.c_str());
+		transfer.sendFile(stream, filename.c_str(), false);
 
 		// Close the filestream
 		fclose(stream);

@@ -1,6 +1,6 @@
 
 #include "transfer.h"
-#define UTIMER 300000
+#define UTIMER 30000000
 #define STIMER 0
 using namespace std;
 
@@ -52,8 +52,8 @@ char* Transfer::receiveMessage() {
 	return szbuffer;
 }
 
-bool Transfer::sendFile(FILE *stream, string filename) {
-
+string Transfer::generateHeader(FILE *stream, string filename) {
+	
 	// Get the filesize
 	long fileSize;
 	fseek (stream, 0, SEEK_END);
@@ -61,11 +61,11 @@ bool Transfer::sendFile(FILE *stream, string filename) {
     printf ("Size of myfile.txt: %ld bytes.\n", fileSize);
 
 	// Figure out how many packets are needed
-	long numPackets = (fileSize / PACKET_SIZE) + 1;
+	numPackets = (fileSize / PACKET_SIZE) + 1;
 	printf("Number of packets required: %ld. \n", numPackets);
 
 	// Figure out the size of the last packet
-	long lastPacketSize = (fileSize % PACKET_SIZE);
+	lastPacketSize = (fileSize % PACKET_SIZE);
 	printf("Last packet size: %ld. \n", lastPacketSize);
 
 	// Compose header message
@@ -81,25 +81,14 @@ bool Transfer::sendFile(FILE *stream, string filename) {
 	strcat(header, ";filename:");
 	strcat(header, filename.c_str());
 	strcat(header, ";");
-	cout << "Header: " << header << "\n";
 
-	// Send header
-	sendMessage(header);
+	return header;
+}
 
-	// Wait for response
-	char response[128];
-	memset(response, '\0', sizeof(char)*128);
+bool Transfer::sendFile(FILE *stream, string filename, bool put) {
 
-	while(strcmp(response, "") == 0) {
-		strcpy(response, receiveMessage());
-	}
-
-	// if the response is not "ok", exit
-	if(strcmp(response, "ok") != 0) {
-		cout << "something went wrong... quitting...";
-		Sleep(10000);
-		exit(0);
-	}
+	// Get first seq number
+	int seq = (put ? SR : CR) % 2;
 
 	// Read file to memory
 	long size;
@@ -115,25 +104,59 @@ bool Transfer::sendFile(FILE *stream, string filename) {
 	for(int i = 0; i < numPackets; i++) {
 
 		// set packet size
-		int packetSize = PACKET_SIZE;
+		int packetSize = PACKET_SIZE - 1;
 		if(i == numPackets - 1) packetSize = lastPacketSize;
 
 		// Clear buffer
 		memset(&szbuffer,0,sizeof(szbuffer));
 
 		// Get the current position in the file
-		memcpy(szbuffer, &fileBuffer[i * PACKET_SIZE], PACKET_SIZE);
+		memcpy(szbuffer, &fileBuffer[i * packetSize], packetSize);
 
-		// Read from fi
-
-		ibytessent=0;
-		ibytessent = sendto(s,szbuffer,ibufferlen,0, (struct sockaddr *) &fromAddr, sizeof(fromAddr));
-		if (ibytessent == SOCKET_ERROR)
-			throw "Send failed\n";
-		else {
-			//cout << "\n\r";
-			//cout << "Sending packet " << i << ", size " << packetSize << ", bytes sent " << ibytessent;
+		// set sequence number
+		if(seq == 1) {
+			szbuffer[packetSize] |= 0x01 << 0;
+		} else {
+			szbuffer[packetSize] &= ~(0x01 << 0);
 		}
+
+		bool ack = false;
+
+		while( ! ack) {
+
+			// Read from fi
+			ibytessent=0;
+			ibytessent = sendto(s,szbuffer,sizeof(szbuffer),0, (struct sockaddr *) &fromAddr, sizeof(fromAddr));
+			if (ibytessent == SOCKET_ERROR)
+				throw "Send failed\n";
+			else {
+				cout << "\n\r";
+				cout << "Sending packet " << i << ", seq #" << seq << ", size " << packetSize << ", bytes sent " << ibytessent;
+			}
+
+			// receive ack
+			char ackMsg[128] = "";
+			FD_ZERO(&readfds);
+			FD_SET(s, &readfds);
+
+			int outfds; ;
+			if((outfds = select (1 , &readfds, NULL, NULL, &timeouts)) == SOCKET_ERROR) {
+				// socket error
+			} 
+			if(outfds > 0) {
+				fromAddrSize = sizeof(fromAddr);
+				if (outfds > 0) //receive frame
+					ibytesrecv = recvfrom(s, (char*)& ackMsg, sizeof(ackMsg),0, (struct sockaddr*)&fromAddr, &fromAddrSize);
+			
+				// ack
+				bool sequenceBit = (ackMsg[0] >> 0) & 0x1;
+				if((sequenceBit && seq == 1) || (! sequenceBit && seq == 0)) {
+					ack = true;
+				}
+			}
+		}
+
+		seq = (seq == 1 ? 0 : 1);
 	}
 
 
@@ -143,10 +166,10 @@ bool Transfer::sendFile(FILE *stream, string filename) {
 }
 
 
-void Transfer::receiveFile(FILE *stream, int numPackets, int lastPacketSize) {
+void Transfer::receiveFile(FILE *stream, int numPackets, int lastPacketSize, bool put) {
 
-	// Send OK
-	sendMessage("ok");
+	// get first seq number
+	int seq = (put ? SR : CR) % 2;
 
 	// Calculate total size
 	int filesize = ((numPackets - 1) * PACKET_SIZE) + lastPacketSize;
@@ -156,29 +179,70 @@ void Transfer::receiveFile(FILE *stream, int numPackets, int lastPacketSize) {
 	for(int i = 0; i < numPackets; i++) {
 
 		// Set packet size
-		int packetSize = PACKET_SIZE;
+		int packetSize = PACKET_SIZE - 1;
 		if(i == numPackets - 1) packetSize = lastPacketSize;
 
-		// Reset buffer
-		memset(&szbuffer,0,sizeof(szbuffer));
+		bool recvCorrectPacket = false;
 
-		// Receive packet to buffer
-		FD_ZERO(&readfds);
-		FD_SET(s, &readfds);
+		while( ! recvCorrectPacket) {
 
-		int outfds;
-		if((outfds = select (1 , &readfds, NULL, NULL, & timeouts))==SOCKET_ERROR) {//timed out, 
-			throw "timeout!!!";
+			// Reset buffer
+			memset(&szbuffer,0,sizeof(szbuffer));
+
+			// Receive packet to buffer
+			FD_ZERO(&readfds);
+			FD_SET(s, &readfds);
+
+			bool recv = false;
+
+			while(! recv) {
+				int outfds;
+				if((outfds = select (1 , &readfds, NULL, NULL, & timeouts))==SOCKET_ERROR) {//timed out, 
+					//throw "timeout!!!";
+				}
+				fromAddrSize = sizeof(fromAddr);
+				if (outfds > 0) {
+					recv = true;
+					ibytesrecv = recvfrom(s, (char*)& szbuffer, sizeof(szbuffer),0, (struct sockaddr*)&fromAddr, &fromAddrSize);
+				}
+			}
+
+			// received sequence #
+			bool packetSeq = (szbuffer[packetSize] >> 0) & 0x1;
+
+			// send ACK
+			char ack[128] = "";
+
+			// set ACK number
+			if(packetSeq) {
+				ack[0] |= 0x01 << 0;
+			} else {
+				ack[0] &= ~(0x01 << 0);
+			}
+
+			ibufferlen = strlen(ack);
+			ibytessent = sendto(s,ack,ibufferlen,0, (struct sockaddr *) &fromAddr, sizeof(fromAddr));
+			if (ibytessent == SOCKET_ERROR)
+				throw "Send failed\n";  
+			else {
+				cout << "Sending ACK for seq #" << (packetSeq ? 1 : 0) <<  "\n";
+			}
+						
+			// check if we received the right packet
+			if((packetSeq && seq == 1) || (! packetSeq && seq == 0)) {
+				recvCorrectPacket = true;
+				seq = (seq == 1 ? 0 : 1);
+			} else {
+				recvCorrectPacket = false;
+			}
+
 		}
-		fromAddrSize = sizeof(fromAddr);
-		if (outfds > 0) //receive frame
-			ibytesrecv = recvfrom(s, (char*)& szbuffer, sizeof(szbuffer),0, (struct sockaddr*)&fromAddr, &fromAddrSize);
 
 		// Print received packet
 		printf("Received packet %ld, expected size %ld, bytes received %ld\n", i, packetSize, ibytesrecv);
 
 		// Copy to file buffer
-		memcpy(&fileBuffer[i * PACKET_SIZE], szbuffer, packetSize);
+		memcpy(&fileBuffer[i * packetSize], szbuffer, packetSize);
 
 	}
 
@@ -186,4 +250,9 @@ void Transfer::receiveFile(FILE *stream, int numPackets, int lastPacketSize) {
 	int byteswritten = fwrite(fileBuffer, 1, filesize, stream);
 
 	printf("Wrote %ld bytes \n", byteswritten);
+}
+
+void Transfer::setCRSR(int CR, int SR) {
+	this->CR = CR;
+	this->SR = SR;
 }

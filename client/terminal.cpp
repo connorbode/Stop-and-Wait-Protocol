@@ -51,6 +51,7 @@ string Terminal::handshake(char* message) {
 		if(CR_incoming == CR) {
 			cout << "Incoming CR matches sent CR \n";
 			CR_match = true;
+			transfer.setCRSR(CR, SR);
 		}
 	}
 
@@ -281,8 +282,27 @@ void Terminal::putFile() {
 		
 		cout << "file opened\n";
 
+		// get the header
+		string header = transfer.generateHeader(stream, fileName);
+		char headerChar[128] = "";
+		strcpy(headerChar, header.c_str());
+
+		// handshake
+		string responseStr = handshake(headerChar);
+
+		// Wait for response
+		char response[128];
+		strcpy(response, responseStr.c_str());
+
+		// if the response is not "ok", exit
+		if(strcmp(response, "ok") != 0) {
+			cout << "something went wrong... quitting...";
+			Sleep(10000);
+			exit(0);
+		}
+
 		// Send the file
-		transfer.sendFile(stream, fileName);
+		transfer.sendFile(stream, fileName, true);
 
 		// Close the filestream
 		fclose(stream);
@@ -374,7 +394,7 @@ void Terminal::getFile() {
 		if((stream = fopen(filename.c_str(), "wb")) != NULL) {
 
 			// Receive file
-			transfer.receiveFile(stream, numPackets, lastPacketSize);
+			transfer.receiveFile(stream, numPackets, lastPacketSize, false);
 
 			// Close the stream
 			fclose(stream);
