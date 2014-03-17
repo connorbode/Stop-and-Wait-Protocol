@@ -124,12 +124,12 @@ bool Server::receiveSRConfirmation(int SR, string message) {
 	while( ! receivedOK) {	
 		
 		char response[128] = "";
-
 		char messageChar[128] = "";
-		strcpy(messageChar, message.c_str());
-		transfer.sendMessage(messageChar);
-
 		while(strcmp(response, "") == 0) {
+
+			strcpy(messageChar, message.c_str());
+			transfer.sendMessage(messageChar);
+
 			strcpy(response, transfer.receiveMessage());
 		}
 

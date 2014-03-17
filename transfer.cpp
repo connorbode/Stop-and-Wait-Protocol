@@ -172,14 +172,15 @@ bool Transfer::sendFile(FILE *stream, string filename, bool put) {
 					strcat(sendMsg, SRChar);
 					strcat(sendMsg, ";ok");
 					sendMessage(sendMsg);
-				}
+				} else {
 			
-				// ack
-				bool sequenceBit = (ackMsg[0] >> 0) & 0x1;
-				if((sequenceBit && seq == 1) || (! sequenceBit && seq == 0)) {
-					ack = true;
-					string sequenceBitString = (sequenceBit ? "1" : "0");
-					log("received ack for seq #" + sequenceBitString);
+					// ack
+					bool sequenceBit = (ackMsg[0] >> 0) & 0x1;
+					if((sequenceBit && seq == 1) || (! sequenceBit && seq == 0)) {
+						ack = true;
+						string sequenceBitString = (sequenceBit ? "1" : "0");
+						log("received ack for seq #" + sequenceBitString);
+					}
 				}
 			}
 		}

@@ -96346,3 +96346,129 @@ received packet 1
 sent ACK for packet 1
 received packet 1
 sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
