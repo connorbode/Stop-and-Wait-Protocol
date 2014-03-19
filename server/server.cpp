@@ -308,7 +308,8 @@ void Server::get(string request, int CR) {
 		transfer.setCRSR(CR, SR);
 		char responseChar[128] = "";
 		strcpy(responseChar, hsResponse.c_str());
-		transfer.sendMessage(responseChar);
+
+		receiveSRConfirmation(SR, responseChar);
 		
 		cout << "file opened\n";
 
