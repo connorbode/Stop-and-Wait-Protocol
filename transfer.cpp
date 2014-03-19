@@ -163,24 +163,13 @@ bool Transfer::sendFile(FILE *stream, string filename, bool put) {
 				fromAddrSize = sizeof(fromAddr);
 				if (outfds > 0) //receive frame
 					ibytesrecv = recvfrom(s, (char*)& ackMsg, sizeof(ackMsg),0, (struct sockaddr*)&fromAddr, &fromAddrSize);
-
-				string ackString(ackMsg);
-				if(ackString.find("SR") != -1) {
-					char sendMsg[128] = "SR:";
-					char SRChar[128] = "";
-					itoa(SR,SRChar,10);
-					strcat(sendMsg, SRChar);
-					strcat(sendMsg, ";ok");
-					sendMessage(sendMsg);
-				} else {
 			
-					// ack
-					bool sequenceBit = (ackMsg[0] >> 0) & 0x1;
-					if((sequenceBit && seq == 1) || (! sequenceBit && seq == 0)) {
-						ack = true;
-						string sequenceBitString = (sequenceBit ? "1" : "0");
-						log("received ack for seq #" + sequenceBitString);
-					}
+				// ack
+				bool sequenceBit = (ackMsg[0] >> 0) & 0x1;
+				if((sequenceBit && seq == 1) || (! sequenceBit && seq == 0)) {
+					ack = true;
+					string sequenceBitString = (sequenceBit ? "1" : "0");
+					log("received ack for seq #" + sequenceBitString);
 				}
 			}
 		}
@@ -188,7 +177,7 @@ bool Transfer::sendFile(FILE *stream, string filename, bool put) {
 		seq = (seq == 1 ? 0 : 1);
 	}
 
-	cout << "\nSend complete \n";
+	cout << "Send complete \n";
 	log("file transfer completed");
 	int effectiveBytes = result;
 	log("number of effective bytes sent: " + to_string(effectiveBytes));
@@ -235,7 +224,7 @@ void Transfer::receiveFile(FILE *stream, int numPackets, int lastPacketSize, boo
 
 				int outfds;
 				if((outfds = select (1 , &readfds, NULL, NULL, & timeouts))==SOCKET_ERROR) {//timed out, 
-					// socket error
+					//throw "timeout!!!";
 				}
 				fromAddrSize = sizeof(fromAddr);
 				if (outfds > 0) {
@@ -244,97 +233,37 @@ void Transfer::receiveFile(FILE *stream, int numPackets, int lastPacketSize, boo
 				}
 			}
 
-			string bufferStr(szbuffer);
-			if(bufferStr.find("SR:") != -1) {
-					// resend OK
-					if(i == 0) {
-						char ok[128] = "SR:";
-						char srChar[128] = "";
-						itoa(SR, srChar, 10);
-						strcat(ok, srChar);
-						strcat(ok, ";ok");
+			// received sequence #
+			bool packetSeq = (szbuffer[packetSize] >> 0) & 0x1;
 
-						sendMessage(ok);
-					}
+			string packetSeqString = (packetSeq ? "1" : "0");
+			log("received packet " + packetSeqString);
+
+			// send ACK
+			char ack[128] = "";
+
+			// set ACK number
+			if(packetSeq) {
+				ack[0] |= 0x01 << 0;
+			} else {
+				ack[0] &= ~(0x01 << 0);
 			}
 
+			ibufferlen = strlen(ack);
+			ibytessent = sendto(s,ack,ibufferlen,0, (struct sockaddr *) &fromAddr, sizeof(fromAddr));
+			if (ibytessent == SOCKET_ERROR)
+				throw "Send failed\n";  
 			else {
-
-				// received sequence #
-				bool packetSeq = (szbuffer[packetSize] >> 0) & 0x1;
-
-				string packetSeqString = (packetSeq ? "1" : "0");
-				log("received packet " + packetSeqString);
-
-				// send ACK
-				char ack[128] = "";
-
-				// set ACK number
-				if(packetSeq) {
-					ack[0] |= 0x01 << 0;
-				} else {
-					ack[0] &= ~(0x01 << 0);
-				}
-
-				ibufferlen = strlen(ack);
-				ibytessent = sendto(s,ack,ibufferlen,0, (struct sockaddr *) &fromAddr, sizeof(fromAddr));
-				if (ibytessent == SOCKET_ERROR)
-					throw "Send failed\n";  
-				else {
-					cout << "Sending ACK for seq #" << (packetSeq ? 1 : 0) <<  "\n";
-					log("sent ACK for packet " + packetSeqString);
-				}
+				cout << "Sending ACK for seq #" << (packetSeq ? 1 : 0) <<  "\n";
+				log("sent ACK for packet " + packetSeqString);
+			}
 						
-				// check if we received the right packet
-				if((packetSeq && seq == 1) || (! packetSeq && seq == 0)) {
-					recvCorrectPacket = true;
-					seq = (seq == 1 ? 0 : 1);
-				} else {
-					recvCorrectPacket = false;
-				}
-			}
-		}
-
-		// Make sure last ACK gets received
-		for(int lastAck = 2; lastAck > 0; lastAck--) {
-
-			// Receive packet to buffer
-			FD_ZERO(&readfds);
-			FD_SET(s, &readfds);
-
-			int outfds;
-			if((outfds = select (1 , &readfds, NULL, NULL, & timeouts))==SOCKET_ERROR) {//timed out, 
-				//throw "timeout!!!";
-			}
-			fromAddrSize = sizeof(fromAddr);
-			if (outfds > 0) {
-				lastAck = 2;
-				ibytesrecv = recvfrom(s, (char*)& szbuffer, sizeof(szbuffer),0, (struct sockaddr*)&fromAddr, &fromAddrSize);
-
-				// received sequence #
-				bool packetSeq = (szbuffer[packetSize] >> 0) & 0x1;
-
-				string packetSeqString = (packetSeq ? "1" : "0");
-				log("received packet " + packetSeqString);
-
-				// send ACK
-				char ack[128] = "";
-
-				// set ACK number
-				if(packetSeq) {
-					ack[0] |= 0x01 << 0;
-				} else {
-					ack[0] &= ~(0x01 << 0);
-				}
-
-				ibufferlen = strlen(ack);
-				ibytessent = sendto(s,ack,ibufferlen,0, (struct sockaddr *) &fromAddr, sizeof(fromAddr));
-				if (ibytessent == SOCKET_ERROR)
-					throw "Send failed\n";  
-				else {
-					cout << "Sending ACK for seq #" << (packetSeq ? 1 : 0) <<  "\n";
-					log("sent ACK for packet " + packetSeqString);
-				}
+			// check if we received the right packet
+			if((packetSeq && seq == 1) || (! packetSeq && seq == 0)) {
+				recvCorrectPacket = true;
+				seq = (seq == 1 ? 0 : 1);
+			} else {
+				recvCorrectPacket = false;
 			}
 
 		}

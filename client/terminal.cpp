@@ -39,12 +39,7 @@ string Terminal::handshake(char* message) {
 		int endIndex = messageString.find(";", startIndex);
 		int subStrLen = endIndex - startIndex - 3;
 		int subStrStart = startIndex + 3;
-		int CR_incoming; 
-		try {
-			CR_incoming = stoi(messageString.substr(subStrStart, subStrLen));
-		} catch(const std::exception& ex) {
-			Sleep(5000);
-		}
+		int CR_incoming = stoi(messageString.substr(subStrStart, subStrLen));
 		messageString = messageString.substr(0, startIndex) + messageString.substr(endIndex + 1, messageString.length() - endIndex);
 		startIndex = messageString.find("SR:");
 		endIndex = messageString.find(";", startIndex);
@@ -63,7 +58,7 @@ string Terminal::handshake(char* message) {
 		}
 	}
 
-	string responseString = "SR:" + to_string(SR) + ";ok";
+	string responseString = "SR:" + to_string(SR) + ";";
 	char messageChar[128] = "";
 	strcpy(messageChar, responseString.c_str());
 	transfer.sendMessage(messageChar);
