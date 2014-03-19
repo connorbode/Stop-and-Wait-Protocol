@@ -29,7 +29,7 @@ string Terminal::handshake(char* message) {
 		cout << "Sending request..\n\n";
 		while(strcmp(response, "") == 0) {
 			transfer.sendMessage(newMessage);
-			strcpy(response, transfer.receiveMessage());
+			strcpy(response, transfer.receiveMessage(false));
 		}
 		cout << "Received response " << response << "\n";
 

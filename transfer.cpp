@@ -40,7 +40,7 @@ bool Transfer::sendMessage(char* message) {
 	}
 }
 
-char* Transfer::receiveMessage() {
+char* Transfer::receiveMessage(bool throws) {
 	memset(&szbuffer,0,sizeof(szbuffer));
 	//Fill in szbuffer from accepted request.
 	/*if((ibytesrecv = recv(s,szbuffer,128,0)) == SOCKET_ERROR)
@@ -51,7 +51,10 @@ char* Transfer::receiveMessage() {
 
 	int outfds;
 	if((outfds = select (1 , &readfds, NULL, NULL, &timeouts))==SOCKET_ERROR) {//timed out, 
-		throw "timeout!!!";
+		// socket error 
+	} else if(outfds == 0) {
+		if(throws)
+			throw "timeout";
 	}
 	fromAddrSize = sizeof(fromAddr);
 	if (outfds > 0) //receive frame
@@ -120,17 +123,19 @@ bool Transfer::sendFile(FILE *stream, string filename, bool put) {
 		int packetSize = PACKET_SIZE - 1;
 		if(i == numPackets - 1) packetSize = lastPacketSize;
 
+		char packetBuffer[128];
+
 		// Clear buffer
-		memset(&szbuffer,0,sizeof(szbuffer));
+		memset(&packetBuffer,0,sizeof(packetBuffer));
 
 		// Get the current position in the file
-		memcpy(szbuffer, &fileBuffer[i * packetSize], packetSize);
+		memcpy(packetBuffer, &fileBuffer[i * packetSize], packetSize);
 
 		// set sequence number
 		if(seq == 1) {
-			szbuffer[packetSize] |= 0x01 << 0;
+			packetBuffer[packetSize] |= 0x01 << 0;
 		} else {
-			szbuffer[packetSize] &= ~(0x01 << 0);
+			packetBuffer[packetSize] &= ~(0x01 << 0);
 		}
 
 		bool ack = false;
@@ -139,7 +144,7 @@ bool Transfer::sendFile(FILE *stream, string filename, bool put) {
 
 			// Read from fi
 			ibytessent=0;
-			ibytessent = sendto(s,szbuffer,sizeof(szbuffer),0, (struct sockaddr *) &fromAddr, sizeof(fromAddr));
+			ibytessent = sendto(s,packetBuffer,sizeof(szbuffer),0, (struct sockaddr *) &fromAddr, sizeof(fromAddr));
 			if (ibytessent == SOCKET_ERROR)
 				throw "Send failed\n";
 			else {
@@ -163,13 +168,28 @@ bool Transfer::sendFile(FILE *stream, string filename, bool put) {
 				fromAddrSize = sizeof(fromAddr);
 				if (outfds > 0) //receive frame
 					ibytesrecv = recvfrom(s, (char*)& ackMsg, sizeof(ackMsg),0, (struct sockaddr*)&fromAddr, &fromAddrSize);
-			
-				// ack
-				bool sequenceBit = (ackMsg[0] >> 0) & 0x1;
-				if((sequenceBit && seq == 1) || (! sequenceBit && seq == 0)) {
-					ack = true;
-					string sequenceBitString = (sequenceBit ? "1" : "0");
-					log("received ack for seq #" + sequenceBitString);
+
+				string ackMsgString(ackMsg);
+
+				if( ackMsgString.compare("") != 0 && ackMsgString.compare("\x1") != 0 ) {
+
+					if(i == 0 && ackMsgString.find("SR:") >= 0 && ackMsgString.find("CR:") >= 0) {
+
+							string responseMessage = "SR:" + to_string(SR) + ";ok";
+							char responseChar[128] = "";
+							strcpy(responseChar, responseMessage.c_str());
+							sendMessage(responseChar);
+
+					}
+				} else {
+
+					// ack
+					bool sequenceBit = (ackMsg[0] >> 0) & 0x1;
+					if((sequenceBit && seq == 1) || (! sequenceBit && seq == 0)) {
+						ack = true;
+						string sequenceBitString = (sequenceBit ? "1" : "0");
+						log("received ack for seq #" + sequenceBitString);
+					}
 				}
 			}
 		}
@@ -276,6 +296,8 @@ void Transfer::receiveFile(FILE *stream, int numPackets, int lastPacketSize, boo
 
 	}
 
+	seq = (seq == 1 ? 0 : 1);
+
 	// Empty buffer to file stream
 	int byteswritten = fwrite(fileBuffer, 1, filesize, stream);
 
@@ -284,6 +306,38 @@ void Transfer::receiveFile(FILE *stream, int numPackets, int lastPacketSize, boo
 	log("transfer completed");
 	log("bytes received: " + to_string(byteswritten));
 	log("");
+
+	for(int i = 0; i < 10; i++) {
+
+		try {
+			string message = receiveMessage(true);
+
+			i = -1;
+			
+			// send ACK
+			bool packetSeq = (seq == 1 ? true : false);
+			char ack[128] = "";
+
+			// set ACK number
+			if(packetSeq) {
+				ack[0] |= 0x01 << 0;
+			} else {
+				ack[0] &= ~(0x01 << 0);
+			}
+
+			ibufferlen = strlen(ack);
+			ibytessent = sendto(s,ack,ibufferlen,0, (struct sockaddr *) &fromAddr, sizeof(fromAddr));
+			if (ibytessent == SOCKET_ERROR)
+				throw "Send failed\n";  
+			else {
+				cout << "Sending ACK for seq #" << (packetSeq ? 1 : 0) <<  "\n";
+				string packetSeqString = (packetSeq ? "1" : "0");
+				log("sent ACK for packet " + packetSeqString);
+			}
+		} catch(char* error) {
+			// timeout
+		}
+	}
 }
 
 void Transfer::setCRSR(int CR, int SR) {

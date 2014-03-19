@@ -35,7 +35,7 @@ void Server::run(SOCKADDR_IN fromAddr) {
 
 		// Receive a message
 		char message[128];
-		strcpy(message, transfer.receiveMessage());
+		strcpy(message, transfer.receiveMessage(false));
 		stringstream ss;
 		string messageString;
 		ss << message;
@@ -94,28 +94,43 @@ string Server::generateSRResponse(int CR, int SR) {
  * If there is a match, returns the first sequence number
  * If there is no match, returns -1
  */
-bool Server::receiveSRConfirmation(int SR) {
+bool Server::receiveSRConfirmation(int SR, string message) {
 
-	char response[128] = "";
+	char response[128];
+	char messageChar[128] = "";
+	strcpy(messageChar, message.c_str());
 
-	while(strcmp(response, "") == 0) {
-		strcpy(response, transfer.receiveMessage());
-	}
+	while(true) {
 
-	string messageString(response);
+		transfer.sendMessage(messageChar);
+
+		strcpy(response, "");
+
+		try {
+			strcpy(response, transfer.receiveMessage(true));
+
+			string messageString(response);
 	
-	int startIndex = messageString.find("SR:");
-	int endIndex = messageString.find(";", startIndex);
-	int incoming_SR = stoi(messageString.substr(startIndex + 3, endIndex - startIndex - 3));
+			int startIndex = messageString.find("SR:");
 
-	cout << "Received SR " << incoming_SR << "\n";
+			if(startIndex >= 0) {
+				int endIndex = messageString.find(";", startIndex);
+				int incoming_SR = stoi(messageString.substr(startIndex + 3, endIndex - startIndex - 3));
 
-	if(SR == incoming_SR) {
-		cout << "Incoming SR matches original SR \n";
-		return true;
-	} else {
-		cout << "Incoming SR did not match original SR\n";
-		return false;
+				cout << "Received SR " << incoming_SR << "\n";
+
+				if(SR == incoming_SR) {
+					cout << "Incoming SR matches original SR \n";
+					return true;
+				} else {
+					cout << "Incoming SR did not match original SR\n";
+					return false;
+				}
+			}
+
+		} catch (char* error) {
+			cout << "Error: " << error << "\n";
+		}
 	}
 }
 
@@ -154,11 +169,8 @@ void Server::list(int CR) {
 
 		char response[128] = "";
 
-		// Send the fileList back to the client
-		transfer.sendMessage(fileList);
-
 		// Receive confirmation
-		receiveSRConfirmation(SR);
+		receiveSRConfirmation(SR, fileList);
 	} 
 		
 	// Failed to open directory
@@ -226,9 +238,8 @@ void Server::put(string request, int CR) {
 	string hsResponse = generateSRResponse(CR, SR) + "ok";
 	char responseChar[128] = "";
 	strcpy(responseChar, hsResponse.c_str());
-	transfer.sendMessage(responseChar);
 
-	if(receiveSRConfirmation(SR)) {
+	if(receiveSRConfirmation(SR, responseChar)) {
 
 		transfer.setCRSR(CR, SR);
 
@@ -315,8 +326,7 @@ void Server::get(string request, int CR) {
 		string hsResponse = generateSRResponse(CR, SR) + "could not open file";
 		char responseChar[128] = "";
 		strcpy(responseChar, hsResponse.c_str());
-		transfer.sendMessage(responseChar);
-		receiveSRConfirmation(SR);
+		receiveSRConfirmation(SR, responseChar);
 	}
 
 }
@@ -379,8 +389,7 @@ void Server::deleteFile(string request, int CR) {
 	response = generateSRResponse(CR, SR) + response;
 	char responseChar[128] = "";
 	strcpy(responseChar, response.c_str());
-	transfer.sendMessage(responseChar);
 
-	receiveSRConfirmation(SR);
+	receiveSRConfirmation(SR, responseChar);
 
 }

@@ -24,7 +24,7 @@ public:
 	void get(std::string, int);
 	void deleteFile(std::string, int);
 	void handshake();
-	bool receiveSRConfirmation(int);
+	bool receiveSRConfirmation(int, std::string);
 	int generateSR();
 	std::string generateSRResponse(int, int);
 
