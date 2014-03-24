@@ -261,6 +261,24 @@ void Terminal::listRemote() {
 		}
 	}
 
+	for(int i = 0; i < 10; i++) {
+		try {
+			char receive[128] = "";
+			strcpy(receive, transfer.receiveMessage(true));
+			string messageString = string(receive);
+			int startIndex = messageString.find("SR:");
+			int endIndex = messageString.find(";", startIndex);
+			string SRString = messageString.substr(startIndex + 3, endIndex - startIndex - 3);
+			char response[127] = "SR:";
+			strcat(response, SRString.c_str());
+			strcat(response, ";");
+			transfer.sendMessage(response);
+			i = -1;
+		} catch(char* error) {
+			// timeout
+		}
+	}
+
 	cout << "\n\r";
 }
 
