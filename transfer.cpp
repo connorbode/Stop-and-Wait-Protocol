@@ -253,37 +253,57 @@ void Transfer::receiveFile(FILE *stream, int numPackets, int lastPacketSize, boo
 				}
 			}
 
-			// received sequence #
-			bool packetSeq = (szbuffer[packetSize] >> 0) & 0x1;
+			string temp = string(szbuffer);
 
-			string packetSeqString = (packetSeq ? "1" : "0");
-			log("received packet " + packetSeqString);
+			if(temp.find("put;num_packet") != -1) {
+				
+				int startIndex = temp.find("SR:");
 
-			// send ACK
-			char ack[128] = "";
+				if(startIndex >= 0) {
+					int endIndex = temp.find(";", startIndex);
+					int incoming_SR = stoi(temp.substr(startIndex + 3, endIndex - startIndex - 3));
+					char sendConf[128] = "SR:";
+					char SRBuf[3] = "";
+					itoa(incoming_SR, SRBuf, 10);
+					strcpy(sendConf, SRBuf);
+					strcpy(sendConf, ";");
+					sendMessage(sendConf);
+				}
 
-			// set ACK number
-			if(packetSeq) {
-				ack[0] |= 0x01 << 0;
 			} else {
-				ack[0] &= ~(0x01 << 0);
-			}
 
-			ibufferlen = strlen(ack);
-			ibytessent = sendto(s,ack,ibufferlen,0, (struct sockaddr *) &fromAddr, sizeof(fromAddr));
-			if (ibytessent == SOCKET_ERROR)
-				throw "Send failed\n";  
-			else {
-				cout << "Sending ACK for seq #" << (packetSeq ? 1 : 0) <<  "\n";
-				log("sent ACK for packet " + packetSeqString);
-			}
+				// received sequence #
+				bool packetSeq = (szbuffer[packetSize] >> 0) & 0x1;
+
+				string packetSeqString = (packetSeq ? "1" : "0");
+				log("received packet " + packetSeqString);
+
+				// send ACK
+				char ack[128] = "";
+
+				// set ACK number
+				if(packetSeq) {
+					ack[0] |= 0x01 << 0;
+				} else {
+					ack[0] &= ~(0x01 << 0);
+				}
+
+				ibufferlen = strlen(ack);
+				ibytessent = sendto(s,ack,ibufferlen,0, (struct sockaddr *) &fromAddr, sizeof(fromAddr));
+				if (ibytessent == SOCKET_ERROR)
+					throw "Send failed\n";  
+				else {
+					cout << "Sending ACK for seq #" << (packetSeq ? 1 : 0) <<  "\n";
+					log("sent ACK for packet " + packetSeqString);
+				}
 						
-			// check if we received the right packet
-			if((packetSeq && seq == 1) || (! packetSeq && seq == 0)) {
-				recvCorrectPacket = true;
-				seq = (seq == 1 ? 0 : 1);
-			} else {
-				recvCorrectPacket = false;
+				// check if we received the right packet
+				if((packetSeq && seq == 1) || (! packetSeq && seq == 0)) {
+					recvCorrectPacket = true;
+					seq = (seq == 1 ? 0 : 1);
+				} else {
+					recvCorrectPacket = false;
+				}
 			}
 
 		}
