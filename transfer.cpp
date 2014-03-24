@@ -74,11 +74,11 @@ string Transfer::generatePutHeader(FILE *stream, string filename) {
     printf ("Size of myfile.txt: %ld bytes.\n", fileSize);
 
 	// Figure out how many packets are needed
-	numPackets = (fileSize / PACKET_SIZE) + 1;
+	numPackets = (fileSize / (PACKET_SIZE - 1)) + 1;
 	printf("Number of packets required: %ld. \n", numPackets);
 
 	// Figure out the size of the last packet
-	lastPacketSize = (fileSize % PACKET_SIZE);
+	lastPacketSize = (fileSize % (PACKET_SIZE - 1));
 	printf("Last packet size: %ld. \n", lastPacketSize);
 
 	// Compose header message
@@ -263,10 +263,10 @@ void Transfer::receiveFile(FILE *stream, int numPackets, int lastPacketSize, boo
 					int endIndex = temp.find(";", startIndex);
 					int incoming_SR = stoi(temp.substr(startIndex + 3, endIndex - startIndex - 3));
 					char sendConf[128] = "SR:";
-					char SRBuf[3] = "";
-					itoa(incoming_SR, SRBuf, 10);
-					strcpy(sendConf, SRBuf);
-					strcpy(sendConf, ";");
+					char SRChar[3] = "";
+					sprintf(SRChar, "%d", incoming_SR);
+					strcat(sendConf, SRChar);
+					strcat(sendConf, ";");
 					sendMessage(sendConf);
 				}
 
