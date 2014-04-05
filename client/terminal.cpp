@@ -5,6 +5,7 @@ using namespace std;
 Terminal::Terminal() {};
 
 Terminal::Terminal(SOCKET s) {
+
 	transfer = Transfer(s);
 	srand((unsigned)time(NULL));
 }

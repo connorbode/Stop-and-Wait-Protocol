@@ -31647,3 +31647,4067 @@ number of effective bytes sent: 762
 number of packets sent: 6
 number of bytes sent: 2688
 
+received packet 0
+sent ACK for packet 0
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+for packet 
+for packet 
+for packet 
+for packet 
+for packet 
+for packet 
+for packet 
+received packet 9
+sent ACK for packet 9
+or packet 
+received packet 10
+sent ACK for packet 10
+r packet 
+received packet 11
+sent ACK for packet 11
+received packet 12
+sent ACK for packet 12
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+received packet 0
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+received packet 0
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+received packet 0
+received packet 0
+packet 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+packet 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+packet 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+packet 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+packet 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+packet 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+packet 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+packet 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+packet 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+packet 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+packet 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+packet 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+packet 
+received packet 0
+received packet 1
+t NAK for packet 
+t NAK for packet 
+t NAK for packet 
+t NAK for packet 
+t NAK for packet 
+t NAK for packet 
+t NAK for packet 
+t NAK for packet 
+t NAK for packet 
+t NAK for packet 
+t NAK for packet 
+t NAK for packet 
+t NAK for packet 
+t NAK for packet 
+t NAK for packet 
+t NAK for packet 
+t NAK for packet 
+t NAK for packet 
+K for packet 
+K for packet 
+K for packet 
+K for packet 
+K for packet 
+K for packet 
+K for packet 
+K for packet 
+K for packet 
+K for packet 
+K for packet 
+K for packet 
+K for packet 
+K for packet 
+K for packet 
+K for packet 
+K for packet 
+K for packet 
+received packet 7
+sent ACK for packet 7
+ for packet 
+ for packet 
+ for packet 
+et 
+et 
+et 
+et 
+et 
+received packet 17
+sent ACK for packet 17
+t 
+ NAK for packet 
+ NAK for packet 
+ NAK for packet 
+ NAK for packet 
+ NAK for packet 
+ NAK for packet 
+ NAK for packet 
+ NAK for packet 
+ NAK for packet 
+ NAK for packet 
+ NAK for packet 
+ NAK for packet 
+received packet 4
+sent ACK for packet 4
+NAK for packet 
+NAK for packet 
+NAK for packet 
+NAK for packet 
+NAK for packet 
+NAK for packet 
+NAK for packet 
+received packet 5
+sent ACK for packet 5
+AK for packet 
+AK for packet 
+AK for packet 
+AK for packet 
+AK for packet 
+received packet 6
+sent ACK for packet 6
+K for packet 
+K for packet 
+K for packet 
+K for packet 
+K for packet 
+K for packet 
+received packet 7
+sent ACK for packet 7
+ for packet 
+ for packet 
+ for packet 
+ for packet 
+ for packet 
+ for packet 
+ for packet 
+ for packet 
+ for packet 
+ for packet 
+ for packet 
+received packet 0
+r packet 
+r packet 
+r packet 
+r packet 
+r packet 
+received packet 11
+sent ACK for packet 11
+received packet 12
+sent ACK for packet 12
+received packet 13
+sent ACK for packet 13
+received packet 14
+sent ACK for packet 14
+cket 
+cket 
+cket 
+cket 
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+received packet 0
+received packet 0
+received packet 0
+received packet 0
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+cket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+et 
+received packet 17
+sent ACK for packet 17
+received packet 18
+sent ACK for packet 18
+received packet 19
+sent ACK for packet 19
+received packet 0
+sent ACK for packet 0
+received packet 0
+received packet 1
+sent ACK for packet 1
+received packet 2
+sent ACK for packet 2
+received packet 3
+sent ACK for packet 3
+received packet 0
+received packet 0
+received packet 0
+received packet 0
+received packet 0
+received packet 0
+received packet 0
+ NAK for packet 
+ NAK for packet 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+ NAK for packet 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+ NAK for packet 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+ NAK for packet 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+ NAK for packet 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+ NAK for packet 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+ NAK for packet 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+ NAK for packet 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+ NAK for packet 
+ NAK for packet 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+ NAK for packet 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+ NAK for packet 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+ NAK for packet 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+ NAK for packet 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+ NAK for packet 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+ NAK for packet 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+ NAK for packet 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+sent packet 0, seq #12
+sent packet 1, seq #13
+sent packet 2, seq #14
+sent packet 3, seq #15
+sent packet 0, seq #0
+sent packet 1, seq #1
+sent packet 2, seq #2
+sent packet 3, seq #3
+sent packet 0, seq #0
+sent packet 1, seq #1
+sent packet 2, seq #2
+sent packet 3, seq #3
+sent packet 0, seq #0
+sent packet 1, seq #1
+sent packet 2, seq #2
+sent packet 3, seq #3
+sent NAK for packet 
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 2
+sent ACK for packet 2
+received packet 3
+sent ACK for packet 3
+ NAK for packet 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+received packet 0
+received packet 0
+received packet 0
+received packet 0
+ NAK for packet 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+ NAK for packet 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+ NAK for packet 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+ NAK for packet 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+ NAK for packet 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+ NAK for packet 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+ NAK for packet 
+ NAK for packet 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+ NAK for packet 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+ NAK for packet 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+ NAK for packet 
+acket 
+received packet 14
+sent ACK for packet 14
+received packet 15
+sent ACK for packet 15
+received packet 16
+sent ACK for packet 16
+received packet 17
+sent ACK for packet 17
+t 
+t 
+t 
+t 
+t 
+t 
+t 
+t 
+t 
+t 
+t 
+t 
+t 
+t 
+t 
+t 
+t 
+t 
+t 
+t 
+t 
+t 
+t 
+t 
+t 
+t 
+t 
+t 
+t 
+t 
+t 
+t 
+t 
+ packet 
+ packet 
+ packet 
+ packet 
+ packet 
+received packet 12
+sent ACK for packet 12
+received packet 13
+sent ACK for packet 13
+received packet 14
+sent ACK for packet 14
+received packet 15
+sent ACK for packet 15
+ket 
+ket 
+ket 
+ket 
+ket 
+ket 
+ket 
+ket 
+ket 
+ket 
+ket 
+ket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+ket 
+ket 
+ket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+ket 
+ket 
+ket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+ket 
+ket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+ket 
+ket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+received packet 0
+received packet 0
+received packet 0
+received packet 0
+ket 
+ket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+ket 
+ket 
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+ket 
+ packet 
+ packet 
+ packet 
+ packet 
+received packet 12
+sent ACK for packet 12
+received packet 13
+sent ACK for packet 13
+received packet 14
+sent ACK for packet 14
+received packet 15
+sent ACK for packet 15
+ket 
+ket 
+received packet 12
+received packet 13
+received packet 14
+received packet 15
+received packet 12
+received packet 13
+received packet 14
+received packet 15
+received packet 12
+received packet 13
+received packet 14
+received packet 15
+received packet 12
+received packet 13
+received packet 14
+received packet 15
+received packet 16
+sent ACK for packet 16
+received packet 17
+sent ACK for packet 17
+received packet 18
+sent ACK for packet 18
+received packet 19
+sent ACK for packet 19
+received packet 16
+sent NAK for packet 
+received packet 17
+sent NAK for packet 
+received packet 18
+sent NAK for packet 
+received packet 19
+sent NAK for packet 
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 2
+sent ACK for packet 2
+received packet 3
+sent ACK for packet 3
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+received packet 0
+received packet 0
+received packet 0
+received packet 0
+ NAK for packet 
+received packet 4
+sent ACK for packet 4
+received packet 5
+sent ACK for packet 5
+received packet 6
+sent ACK for packet 6
+received packet 7
+sent ACK for packet 7
+ for packet 
+received packet 8
+sent ACK for packet 8
+received packet 9
+sent ACK for packet 9
+received packet 10
+sent ACK for packet 10
+received packet 11
+sent ACK for packet 11
+ packet 
+received packet 12
+sent ACK for packet 12
+received packet 13
+sent ACK for packet 13
+received packet 14
+sent ACK for packet 14
+received packet 15
+sent ACK for packet 15
+ket 
+received packet 16
+sent ACK for packet 16
+received packet 17
+sent ACK for packet 17
+received packet 18
+sent ACK for packet 18
+received packet 19
+sent ACK for packet 19
+sent NAK for packet 
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 2
+sent ACK for packet 2
+received packet 3
+sent ACK for packet 3
+received packet 0
+received packet 0
+received packet 0
+received packet 0
+ NAK for packet 
+received packet 4
+sent ACK for packet 4
+received packet 5
+sent ACK for packet 5
+received packet 6
+sent ACK for packet 6
+received packet 7
+sent ACK for packet 7
+ for packet 
+received packet 8
+sent ACK for packet 8
+received packet 9
+sent ACK for packet 9
+received packet 10
+sent ACK for packet 10
+received packet 11
+sent ACK for packet 11
+ packet 
+received packet 12
+sent ACK for packet 12
+received packet 13
+sent ACK for packet 13
+received packet 14
+sent ACK for packet 14
+received packet 15
+sent ACK for packet 15
+ket 
+received packet 16
+sent ACK for packet 16
+received packet 17
+sent ACK for packet 17
+received packet 18
+sent ACK for packet 18
+received packet 19
+sent ACK for packet 19
+sent NAK for packet 
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 2
+sent ACK for packet 2
+received packet 3
+sent ACK for packet 3
+received packet 0
+received packet 0
+received packet 0
+received packet 0
+ NAK for packet 
+received packet 4
+sent ACK for packet 4
+received packet 5
+sent ACK for packet 5
+received packet 6
+sent ACK for packet 6
+received packet 7
+sent ACK for packet 7
+ for packet 
+received packet 8
+sent ACK for packet 8
+received packet 9
+sent ACK for packet 9
+received packet 10
+sent ACK for packet 10
+received packet 11
+sent ACK for packet 11
+ packet 
+received packet 12
+sent ACK for packet 12
+received packet 13
+sent ACK for packet 13
+received packet 14
+sent ACK for packet 14
+received packet 15
+sent ACK for packet 15
+ket 
+received packet 16
+sent ACK for packet 16
+received packet 17
+sent ACK for packet 17
+received packet 18
+sent ACK for packet 18
+received packet 19
+sent ACK for packet 19
+sent NAK for packet 
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 2
+sent ACK for packet 2
+received packet 3
+sent ACK for packet 3
+received packet 0
+received packet 0
+received packet 0
+received packet 0
+ NAK for packet 
+received packet 4
+sent ACK for packet 4
+received packet 5
+sent ACK for packet 5
+received packet 6
+sent ACK for packet 6
+received packet 7
+sent ACK for packet 7
+ for packet 
+received packet 8
+sent ACK for packet 8
+received packet 9
+sent ACK for packet 9
+received packet 10
+sent ACK for packet 10
+received packet 11
+sent ACK for packet 11
+ packet 
+received packet 12
+sent ACK for packet 12
+received packet 13
+sent ACK for packet 13
+received packet 14
+sent ACK for packet 14
+received packet 15
+sent ACK for packet 15
+ket 
+received packet 16
+sent ACK for packet 16
+received packet 17
+sent ACK for packet 17
+received packet 18
+sent ACK for packet 18
+received packet 19
+sent ACK for packet 19
+sent NAK for packet 
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 2
+sent ACK for packet 2
+received packet 3
+sent ACK for packet 3
+received packet 0
+received packet 0
+received packet 0
+received packet 0
+ NAK for packet 
+received packet 4
+sent ACK for packet 4
+received packet 5
+sent ACK for packet 5
+received packet 6
+sent ACK for packet 6
+received packet 7
+sent ACK for packet 7
+ for packet 
+received packet 8
+sent ACK for packet 8
+received packet 9
+sent ACK for packet 9
+received packet 10
+sent ACK for packet 10
+received packet 11
+sent ACK for packet 11
+ packet 
+received packet 12
+sent ACK for packet 12
+received packet 13
+sent ACK for packet 13
+received packet 14
+sent ACK for packet 14
+received packet 15
+sent ACK for packet 15
+ket 
+received packet 16
+sent ACK for packet 16
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+et 
+received packet -92
+received packet 88
+et 
+received packet 105
+et 
+received packet 75
+ket 
+ket 
+ket 
+ket 
+ket 
+ket 
+ket 
+received packet 16
+sent ACK for packet 16
+received packet 17
+sent ACK for packet 17
+received packet 18
+sent ACK for packet 18
+received packet 19
+sent ACK for packet 19
+received packet 16
+sent NAK for packet 
+received packet 17
+sent NAK for packet 
+received packet 18
+sent NAK for packet 
+received packet 19
+sent NAK for packet 
+received packet 16
+sent NAK for packet 
+received packet 17
+sent NAK for packet 
+received packet 18
+sent NAK for packet 
+received packet 19
+sent NAK for packet 
+received packet 16
+sent NAK for packet 
+received packet 17
+sent NAK for packet 
+received packet 18
+sent NAK for packet 
+received packet 19
+sent NAK for packet 
+received packet 16
+sent NAK for packet 
+received packet 17
+sent NAK for packet 
+received packet 18
+sent NAK for packet 
+received packet 19
+sent NAK for packet 
+received packet 16
+sent NAK for packet 
+received packet 17
+sent NAK for packet 
+received packet 18
+sent NAK for packet 
+received packet 19
+sent NAK for packet 
+received packet 16
+sent NAK for packet 
+received packet 17
+sent NAK for packet 
+received packet 18
+sent NAK for packet 
+received packet 19
+sent NAK for packet 
+received packet 16
+sent NAK for packet 
+received packet 17
+sent NAK for packet 
+received packet 18
+sent NAK for packet 
+received packet 19
+sent NAK for packet 
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 2
+sent ACK for packet 2
+received packet 3
+sent ACK for packet 3
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+received packet 0
+received packet 1
+received packet 2
+received packet 3
+received packet 0
+received packet 0
+received packet 0
+received packet 0
+ NAK for packet 
+received packet 4
+sent ACK for packet 4
+received packet 5
+sent ACK for packet 5
+received packet 6
+sent ACK for packet 6
+received packet 7
+sent ACK for packet 7
+ for packet 
+received packet 8
+sent ACK for packet 8
+for packet 
+for packet 
+for packet 
+for packet 
+received packet 9
+sent ACK for packet 9
+received packet 10
+sent ACK for packet 10
+received packet 11
+sent ACK for packet 11
+received packet 12
+sent ACK for packet 12
+packet 
+packet 
+packet 
+packet 
+packet 
+packet 
+packet 
+packet 
+packet 
+packet 
+K for packet 
+received packet 7
+sent ACK for packet 7
+received packet 8
+sent ACK for packet 8
+received packet 9
+sent ACK for packet 9
+received packet 10
+sent ACK for packet 10
+r packet 
+received packet 7
+received packet 8
+received packet 9
+received packet 10
+received packet 11
+sent ACK for packet 11
+received packet 12
+sent ACK for packet 12
+received packet 13
+sent ACK for packet 13
+received packet 14
+sent ACK for packet 14
+cket 
+received packet 15
+sent ACK for packet 15
+received packet 16
+sent ACK for packet 16
+received packet 17
+sent ACK for packet 17
+received packet 18
+sent ACK for packet 18
+ 
+received packet 19
+sent ACK for packet 19
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 2
+sent ACK for packet 2
+t NAK for packet 
+received packet 3
+sent ACK for packet 3
+received packet 4
+sent ACK for packet 4
+received packet 5
+sent ACK for packet 5
+received packet 6
+sent ACK for packet 6
+K for packet 
+received packet 7
+sent ACK for packet 7
+received packet 8
+sent ACK for packet 8
+received packet 9
+sent ACK for packet 9
+received packet 10
+sent ACK for packet 10
+r packet 
+received packet 11
+sent ACK for packet 11
+received packet 12
+sent ACK for packet 12
+received packet 13
+sent ACK for packet 13
+received packet 14
+sent ACK for packet 14
+cket 
+received packet 15
+sent ACK for packet 15
+received packet 16
+sent ACK for packet 16
+received packet 17
+sent ACK for packet 17
+received packet 18
+sent ACK for packet 18
+ 
+received packet 19
+sent ACK for packet 19
+received packet 0
+sent ACK for packet 0
+received packet 1
+sent ACK for packet 1
+received packet 2
+sent ACK for packet 2
+t NAK for packet 
+received packet 3
+sent ACK for packet 3
+received packet 4
+sent ACK for packet 4
+received packet 5
+sent ACK for packet 5
+received packet 6
+sent ACK for packet 6
+K for packet 
+received packet 7
+sent ACK for packet 7
+received packet 8
+sent ACK for packet 8
+received packet 9
+sent ACK for packet 9
+received packet 10
+sent ACK for packet 10
+r packet 
+received packet 11
+sent ACK for packet 11
+received packet 12
+sent ACK for packet 12
+received packet 13
+sent ACK for packet 13
+received packet 14
+sent ACK for packet 14
+cket 
