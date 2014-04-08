@@ -107,7 +107,7 @@ bool Transfer::sendFile(FILE *stream, string filename, bool put) {
 	cin >> windowSize;
 
 	// Get first seq number
-	int maxSeqNum = 19;
+	int maxSeqNum = 100;
 	int seq = (put ? SR : CR) % maxSeqNum;
 	cout << "First sequence number: " << seq << "\n";
 
@@ -129,7 +129,10 @@ bool Transfer::sendFile(FILE *stream, string filename, bool put) {
 	while(true) {
 
 		// Send window
-		int windowMax = (packetsACKed + windowSize >= numPackets - 1 ? numPackets - 1 : packetsACKed + windowSize);
+		if(curr > maxSeqNum) {
+			curr -= (maxSeqNum + 1);
+		}
+		int windowMax = (packetsACKed + windowSize >= numPackets - 1 ? numPackets : packetsACKed + windowSize);
 		seq = curr;
 		for(int i = packetsACKed; i < windowMax; i++) {
 
@@ -164,85 +167,82 @@ bool Transfer::sendFile(FILE *stream, string filename, bool put) {
 			}
 
 			bytesSent += ibytessent;
-			seq = (seq == maxSeqNum ? 0 : seq + 1);
+			seq = (seq >= maxSeqNum ? 0 : seq + 1);
 		}
 
-		
-		// receive responses
-		for(curr; curr < curr + windowSize;) {
+		if(packetsACKed < numPackets) {
+			// receive responses
+			int limit = (numPackets - packetsACKed < windowSize ? curr + numPackets - packetsACKed : curr + windowSize);
+			for(curr; curr < limit;) {
 			
-			// receive ack
-			char ackMsg[128] = "";
-			FD_ZERO(&readfds);
-			FD_SET(s, &readfds);
+				// receive ack
+				char ackMsg[128] = "";
+				FD_ZERO(&readfds);
+				FD_SET(s, &readfds);
 
-			int outfds;
-			outfds = select (1 , &readfds, NULL, NULL, &timeouts);
-			if(outfds == SOCKET_ERROR) {
-				// socket error
-			} else if (outfds == 0) {
-				// timeout
-			} else if(outfds > 0) {
-				fromAddrSize = sizeof(fromAddr);
-				ibytesrecv = recvfrom(s, (char*)& ackMsg, 127,0, (struct sockaddr*)&fromAddr, &fromAddrSize);
+				int outfds;
+				outfds = select (1 , &readfds, NULL, NULL, &timeouts);
+				if(outfds == SOCKET_ERROR) {
+					// socket error
+				} else if (outfds == 0) {
+					// timeout
+				} else if(outfds > 0) {
+					fromAddrSize = sizeof(fromAddr);
+					memset(ackMsg, 0, sizeof(ackMsg));
+					ibytesrecv = recvfrom(s, (char*)& ackMsg, sizeof(ackMsg),0, (struct sockaddr*)&fromAddr, &fromAddrSize);
 
-				string ackMsgString(ackMsg);
+					string ackMsgString(ackMsg);
 
-				// if we're still receiving headers
-				if( ackMsgString.compare("") != 0 && ackMsgString.compare("\x1") != 0 ) {
-
-					if(curr == 0 && ackMsgString.find("SR:") >= 0 && ackMsgString.find("CR:") >= 0) {
+					// if we're still receiving headers
+					if(packetsACKed == 0 && ackMsgString.find("SR:") != -1 && ackMsgString.find("CR:") != -1) {
 
 							string responseMessage = "SR:" + to_string(SR) + ";ok";
 							char responseChar[128] = "";
 							strcpy(responseChar, responseMessage.c_str());
 							sendMessage(responseChar);
- 
-					}
-				} else {
+					} else {
 
-					// is ack
-					bool isControl = (ackMsg[0] >> 0) & 0x1;
+						// is ack
+						bool isControl = (ackMsg[0] >> 0) & 0x1;
 
-					// ack
-					bool ACK = (ackMsg[1] >> 0) & 0x1;
+						// ack
+						bool ACK = (ackMsg[1] >> 0) & 0x1;
 
-					// get sequence number
-					int seqNum = ackMsg[2];
+						// get sequence number
+						int seqNum = ackMsg[2];
 
-					/*bool seq1 = (ackMsg[1] >> 0) & 0x1;
-					bool seq2 = (ackMsg[2] >> 0) & 0x1;
-					bool seq3 = (ackMsg[3] >> 0) & 0x1;
-					bool seq4 = (ackMsg[4] >> 0) & 0x1;
-					bool seq5 = (ackMsg[5] >> 0) & 0x1;
-					int seqNum = 0;
-					seqNum += (seq1 ? 16 : 0);
-					seqNum += (seq2 ? 8 : 0);
-					seqNum += (seq3 ? 4 : 0);
-					seqNum += (seq4 ? 2 : 0);
-					seqNum += (seq5 ? 1 : 0);*/
-					if(isControl) {
-						if(ACK == 1) {
-						//ACK 
-							cout << "received ACK for sequence " << seqNum << "\n";
-							if(seqNum >= curr) {
-								packetsACKed += (seqNum - curr) + 1;
-								curr = seqNum + 1;
+						if(isControl) {
+							if(ACK == 1) {
+							//ACK 
+								cout << "received ACK for sequence " << seqNum << "\n";
+								int diff;
+								if(curr > maxSeqNum) {
+									diff = (curr - seqNum - maxSeqNum); 
+								} else {
+									diff = seqNum - curr + 1;
+								}
+								if(diff >= 0) {
+									packetsACKed += diff;
+									curr += diff;
+								}
+							} else {
+							//NAK
+								cout << "received NAK for sequence " << seqNum << "\n";
+								int diff = curr - seqNum;
+								if(curr > maxSeqNum) {
+									diff -= maxSeqNum + 1;
+								}
+								packetsACKed -= diff;
+								curr = seqNum;
+								break;
 							}
-						} else {
-						//NAK
-							cout << "received NAK for sequence " << seqNum << "\n";
-							curr = seqNum;
-							break;
 						}
 					}
 				}
-			}
 
-			// exit the while loop because we received the last packet
-			if(curr == numPackets) {
-				break;
 			}
+		} else {
+			break;
 		}
 	}
 
@@ -261,7 +261,7 @@ bool Transfer::sendFile(FILE *stream, string filename, bool put) {
 void Transfer::receiveFile(FILE *stream, int numPackets, int lastPacketSize, bool put) {
 
 	// get first seq number
-	int maxSeqNum = 19;
+	int maxSeqNum = 100;
 	int seq = (put ? SR : CR) % maxSeqNum;
 
 	cout << "First sequence number: " << seq << "\n";
@@ -342,7 +342,7 @@ void Transfer::receiveFile(FILE *stream, int numPackets, int lastPacketSize, boo
 				} else if(receivedSeq == seq) {
 					// ack		
 					// Print received packet
-					printf("Received packet %ld, expected size %ld, bytes received %ld\n", receivedPackets, packetSize, ibytesrecv);
+					printf("Received packet %ld, sequence number %ld expected size %ld, bytes received %ld\n", receivedPackets, receivedSeq, packetSize, ibytesrecv);
 
 					// Copy to file buffer
 					memcpy(&fileBuffer[receivedPackets * packetSize], szbuffer, packetSize);
@@ -364,6 +364,10 @@ void Transfer::receiveFile(FILE *stream, int numPackets, int lastPacketSize, boo
 						log("sent ACK for packet " + packetSeqString);
 					}
 
+					if(receivedPackets == numPackets) {
+						break;
+					}
+
 
 				} else {
 					// nak
@@ -373,7 +377,6 @@ void Transfer::receiveFile(FILE *stream, int numPackets, int lastPacketSize, boo
 					nak[1] &= ~(0x01 << 0);
 					nak[2] = seq;
 
-					ibufferlen = strlen(nak);
 					ibytessent = sendto(s,nak,ibufferlen,0, (struct sockaddr *) &fromAddr, sizeof(fromAddr));
 					if (ibytessent == SOCKET_ERROR)
 						throw "Send failed\n";  
@@ -397,7 +400,9 @@ void Transfer::receiveFile(FILE *stream, int numPackets, int lastPacketSize, boo
 
 	// FINAL ACKS IN CASE OF DROPPING
 
-	/*for(int i = 0; i < 10; i++) {
+	cout << "Waiting for any extra messages (because of dropping)\n";
+
+	for(int i = 0; i < 10; i++) {
 
 		try {
 			string message = receiveMessage(true);
@@ -427,7 +432,9 @@ void Transfer::receiveFile(FILE *stream, int numPackets, int lastPacketSize, boo
 		} catch(char* error) {
 			// timeout
 		}
-	}*/
+	}
+
+	cout << "Done.\n\n";
 }
 
 void Transfer::setCRSR(int CR, int SR) {
